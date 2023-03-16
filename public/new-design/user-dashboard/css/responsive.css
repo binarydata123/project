@@ -1,0 +1,2198 @@
+@media (min-width:1700px) {
+    .ft-list h5 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    #summary-law ul.star-part-2 li {
+        font-size: 10px;
+    }
+
+    .Hire p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .eles h4 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    ul.post-1 li a {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .faq-box h3 {
+        font-size: 64px;
+        line-height: 96px;
+    }
+
+    ul.ft-list-a li a {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .form h4 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .form-part label {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+
+    .form-part input {
+        font-size: 20px;
+        line-height: 35px;
+        padding: 10px 10px;
+    }
+
+    .cards p.name-uaser {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .you-a h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .cards p.short-mes {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    p.name-uaser {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .you-a p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    .why-b {
+        height: 350px;
+        padding: 85px 50px;
+    }
+
+    .works p {
+        font-size: 24px;
+        line-height: 40.2px;
+    }
+
+    .works {
+        padding-top: 7%;
+    }
+
+    #client-part p.name {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    p.short-p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    ul.star-part li {
+        font-size: 16px;
+    }
+
+    .accordion-body h3 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .container {
+        max-width: 1450px;
+    }
+
+    .card-va p.font-20 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    nav.main-menu a.navbar-brand {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .main-menu ul.navbar-nav li a {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 13px 15px !important;
+    }
+
+    .top-header {
+        padding: 8px 25px;
+    }
+
+    h1.font-64 {
+        font-size: 64px;
+        line-height: 96px;
+    }
+
+    .banner-text p {
+        font-size: 24px;
+    }
+
+    .font-22 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .font-20 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .icon-center img {
+        width: 62px;
+        margin-top: 25px;
+    }
+
+    span.counter-value {
+        font-size: 64px;
+        line-height: 96px;
+    }
+
+    .counter-content h6 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    img.about-img {
+        padding-left: 20px;
+    }
+
+    .card-ali p.name-uaser {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .pro-1 {
+        padding: 30px;
+    }
+
+    .pro-1 h3 {
+        font-size: 48px;
+        line-height: 72px;
+    }
+
+    .pro-1 {
+        height: 613px;
+    }
+
+    .more-box {
+        width: 292px;
+        height: 177px;
+    }
+
+    p.mor {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .more-box h4 {
+        font-size: 70px;
+        line-height: 80px;
+    }
+
+    p.bhl {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .wer-2 {
+        top: 235px;
+    }
+
+    .more-box.wer-2 {
+        width: 325px;
+        height: 200px;
+    }
+
+    .more-box.wer-3 {
+        width: 305px;
+        height: 200px;
+    }
+}
+
+
+@media(min-width:1601px) {
+    .rev-35 {
+        font-size: 12px;
+    }
+
+    .text-cont {
+        font-size: 12px;
+    }
+
+    i.crown-p {
+        right: 45px;
+        bottom: 0px;
+    }
+
+    .user-nav {
+        width: 90%;
+    }
+}
+
+
+@media(max-width:1600px) {
+    .home-box-fifth {
+        padding: 9px;
+    }
+
+    ul.star-part-2 li {
+        font-size: 10px;
+    }
+
+    .home-box-fifth h5 {
+        margin-bottom: 0;
+    }
+
+    .rev-35 {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .text-cont {
+        font-size: 11px;
+    }
+
+    i.crown-p {
+        bottom: 0px;
+        font-size: 29px;
+    }
+
+    .home-box-fifth .box img {
+        width: 90px;
+        border-radius: 202px;
+    }
+}
+
+
+@media (min-width:991px) and (max-width:1199px) {
+    #summary-law h5 {
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    p.aed {
+        font-size: 10px;
+    }
+
+    p.aed span {
+        font-size: 11px;
+    }
+
+    #summary-law ul.star-part-2 li {
+        font-size: 3px;
+        padding: 0;
+    }
+
+    #summary-law i.crown-p {
+        bottom: 8px;
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:1466px) {
+    .active-pd {
+        font-size: 14px;
+    }
+
+    #chats-slots p {
+        font-size: 16px;
+    }
+
+    .chat-slots-left div {
+        padding: 10px 10px;
+        margin: 0px 15px 0px 0px;
+    }
+
+    .chat-slots-left div {
+        padding: 10px 7px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .tabs-inline li {
+        padding: 0px 10px;
+    }
+
+    .time-class.plue {
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width:1440px) {
+    .home-box-fifth h5 {
+        font-size: 16px;
+    }
+
+    ul.star-part-2 {
+        font-size: 0px;
+        width: 80px;
+    }
+
+    .rev-35 {
+        font-size: 9px;
+    }
+
+    .color-1 {
+        padding: 10px;
+    }
+
+    .same-flex li {
+        padding: 0px 10px 0px 0px !important;
+    }
+
+    #summary-law i.crown-p {
+        font-size: 25px;
+    }
+
+    .names.color-change p {
+        font-size: 16px;
+
+    }
+
+    #color-class {
+        background: #C6EEE2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+    }
+
+    #class-smae-color h5 {
+        font-size: 16px;
+    }
+
+    #class-smae-color p {
+        font-size: 12px;
+    }
+
+    .booked.bg-none {
+        padding: 12px 12px 25px 12px;
+    }
+
+    .names.color-change span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1345px) {
+    ul.star-part-2 li {
+        font-size: 8px;
+    }
+
+    ul.star-part-2 {
+        width: 62px;
+        margin-right: 3px;
+    }
+
+
+}
+
+
+@media (max-width:1268px) {
+    .main-menu ul.navbar-nav li a {
+        font-size: 12px;
+        padding: 13px 7px !important;
+    }
+
+    #chats-slots p {
+        font-size: 16px !important;
+    }
+
+    .box-1 {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .font-22 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .card-va p.font-20 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .banner-text {
+        padding-right: 25px;
+        padding-top: 0;
+    }
+
+    h1.font-64 {
+        font-size: 35px;
+    }
+
+    .btn {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .counter-center {
+        padding: 0 0 0 25px;
+    }
+
+    span.counter-value {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .counter-content h6 {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .font-45 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    p.font-24 {
+        font-size: 20px;
+        line-height: 30.2px;
+    }
+
+    .accordion-body h3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .text-slid h4 {
+        font-size: 15px;
+        line-height: 25.12px;
+    }
+
+    .text-slid h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text-slid .font-20 {
+        font-size: 18px;
+        line-height: 29.5px;
+    }
+
+    p.font-14 {
+        font-size: 12px;
+        line-height: 20.5px;
+    }
+
+    .s-for h5 {
+        font-size: 15px;
+        line-height: 25.12px;
+    }
+
+    .s-for h3 {
+        font-size: 36px;
+        line-height: 49.68px;
+    }
+
+    .s-for h4 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .steps h4 {
+        font-size: 50px;
+        line-height: 70.8px;
+    }
+
+    .font-28 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .steps {
+        height: 400px;
+    }
+
+    img.find-logo {
+        width: 70%;
+    }
+
+    .lawyers-online {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .lawyers-online img {
+        width: 25px;
+    }
+
+    p.name-uaser {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    p.short-mes {
+        font-size: 13px;
+    }
+
+    p.bg-hov {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .card-ali p.name-uaser {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .pro-1 .make p {
+        font-size: 16px;
+    }
+
+    .make ul li {
+        font-size: 16px;
+        line-height: 30.5px;
+    }
+
+    .pro-1 h3 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .pro-1 {
+        height: 522px;
+    }
+
+    .client-part p.test {
+        font-size: 15px;
+        line-height: 25.12px;
+    }
+
+    .client-part h3 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .client-part i.quote-icon {
+        font-size: 70px;
+        right: 0;
+        top: 20px;
+    }
+
+    .client-part p {
+        line-height: 26.8px;
+        font-size: 16px;
+    }
+
+    p.we-quickly {
+        font-size: 10px;
+        line-height: 138.5%;
+    }
+
+    p.name {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+    p.short-p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    ul.star-part li {
+        font-size: 6px;
+        line-height: 1;
+    }
+
+    .short-text {
+        font-size: 8px;
+        line-height: 10.5px;
+    }
+
+    p.mor {
+        font-size: 10px;
+    }
+
+    .more-box h4 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    p.bhl {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .more-box {
+        height: 120px;
+        padding: 15px;
+        width: 190px;
+    }
+
+    .more-box.wer-2 {
+        width: 211px;
+        height: 117px;
+    }
+
+    .more-box.wer-3 {
+        width: 189px;
+        height: 110px;
+    }
+
+    .wer-3 {
+        right: -50px;
+    }
+
+    .wer-1 {
+        right: -50px;
+    }
+
+    .works p {
+        font-size: 18px;
+        line-height: 28.2px;
+    }
+
+    .why-b.Keep p {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .why-b h2 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .why-b p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    a.circle-right {
+        font-size: 30px;
+    }
+
+    .cards p.name-uaser {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .cards p.short-mes {
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    .you-a h3 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .form-part input {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .sign-up {
+        width: 297px;
+        height: 59px;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .ft-list h5 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    ul.ft-list-a li a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    p.copy-right {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .law-box h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .rev-35 {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    i.crown-p {
+        bottom: 16px;
+        font-size: 26px;
+    }
+
+    .eye-pri {
+        width: 45px;
+        height: 45px;
+        padding: 12px;
+        font-size: 17px;
+        margin-top: 22px;
+    }
+
+}
+
+@media (max-width:1100px) {
+    ul.step-ul li {
+        padding: 0 2%;
+    }
+
+}
+
+@media(max-width:1024px) {
+    .drop .dropdown-toggle {
+        font-size: 12px;
+        padding: 4px 10px;
+    }
+    .d-flex1 li {
+        padding: 20px 15px;
+    }
+
+    .booked.bg-none h4 {
+        font-size: 20px;
+    }
+
+    img.img-top {
+        width: 99%;
+    }
+
+    .plus-icn-servie img {
+        padding: 0px 0px;
+        width: 12px;
+    }
+
+    #Airtical .plus-icn-servie {
+        display: flex;
+        width: unset;
+    }
+
+    img.off-logo {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+  .d-flex1 li h1 {
+    font-size: 15px;
+    line-height: 27px;
+}
+
+    .color-bg {
+        background: #f8f8f8;
+        height: auto;
+    }
+
+    .d-flex1 h2 {
+        font-size: 20px;
+    }
+
+    .d-flex1 li h4 {
+        font-size: 20px;
+    }
+
+    .span-color {
+        color: #3dc9a1;
+        font-size: 10px;
+    }
+
+    .rev-35 {
+        font-size: 7px;
+    }
+
+    i.crown-p {
+
+        right: 82px;
+    }
+
+    #pdf-file a {
+        padding: 12px;
+    }
+
+    td.images-dalate img {
+        width: 25px;
+    }
+
+    .plus-icn-servie h1 {
+        font-size: 14px;
+    }
+
+    .time-class.time-1 {
+        width: 100%;
+    }
+
+    .chat-slots-left div {
+        padding: 10px 7px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    a.publish_post.float-start {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1.font-64 {
+        margin-top: 0px;
+        margin-bottom: 8px !important;
+    }
+
+    .search-drop {
+        margin-top: 20px;
+    }
+
+    .department {
+        font-size: 9px;
+    }
+
+
+
+
+}
+
+@media (max-width:991px) {
+    button.navbar-toggler.collapsed {
+        background: #fff;
+    }
+
+    img.img-top {
+        width: 99%;
+    }
+
+    #service-pages h4 {
+        font-size: 20px;
+    }
+
+    #hide-hidden {
+        display: none;
+    }
+
+    #dropdown li {
+        display: inline-block;
+        padding: 0px;
+    }
+
+    #hide {
+        display: none;
+    }
+
+    .names.color-change p {
+        font-size: 14px;
+    }
+
+    a.sand-caht {
+        max-width: 40px;
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .input-group.fixed-postion {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        overflow: hidden;
+        padding: 0px;
+    }
+
+    .d-flex1 li h4 {
+        font-size: 16px;
+    }
+
+    .d-flex1 li h1 {
+        font-size: 14px;
+    }
+
+    .d-flex1 li h2 {
+        font-size: 14px;
+
+    }
+
+    .d-flex1 li {
+        padding: 20px 0px;
+    }
+
+    .publish_post {
+        width: 100%;
+        padding: 6px;
+        font-size: 16px;
+    }
+
+    .community-text {
+        padding: 10px;
+    }
+
+    .same-flex li {
+        font-size: 10px;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .booked.bg-none h4 {
+        font-size: 16px;
+
+    }
+
+    .department {
+        font-size: 7px;
+    }
+
+    .span-font {
+        font-size: 12px;
+    }
+
+    #color-class {
+        height: 70px;
+    }
+
+    div#chats-slots {
+        padding: 0px 0px;
+    }
+
+    .chat-slots-left div {
+        padding: 7px 3px;
+        font-size: 12px;
+        margin: 0px 8px 0px 0px;
+        font-family: Poppins;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    .chat-slots {
+        padding: 0px;
+
+    }
+
+    .form {
+        padding: 25px 10px;
+    }
+
+    .plus-icn-servie h1 {
+        font-size: 10px;
+    }
+
+    .box-redi.card-summary {
+        margin-top: 35px;
+    }
+
+    div#summary-law {
+        max-width: 364px;
+    }
+
+    ul.step-ul li a {
+        font-size: 15px;
+        line-height: 25px;
+        padding: 12px 5px;
+    }
+
+    .faq-box h6 {
+        font-size: 40px;
+        line-height: 56.6px;
+    }
+
+    .almo p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .tab-practice .faq-box .accordion-header button {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    ul.post-1 li a {
+        font-size: 15px;
+        line-height: 35px;
+
+    }
+
+    .tab-practice ul#pills-tab button {
+        padding: 0 0;
+        width: 116px;
+        height: 110px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    h1.font-64.same-font {
+        font-size: 40px;
+        line-height: 47px;
+        margin-top: 0;
+    }
+
+    .faq-box h6 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .tab-practice #pills-tabContent {
+        padding: 20px 20px;
+    }
+
+    .eles h4 {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .eles textarea {
+        font-size: 12px;
+        height: 180px;
+    }
+
+    .eles {
+        padding: 20px;
+    }
+
+    ul.post-1 li a {
+        font-size: 10px;
+        padding: 5px 3px;
+    }
+
+    ul.post-1 li a img {
+        width: 15px;
+    }
+
+    ul.post-1.text-left a {
+        font-size: 11px;
+        padding: 7px 8px;
+    }
+
+    .banner-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .lawyers-part p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .firm-info h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .firm-info input {
+        font-size: 16px;
+        line-height: 35px;
+        padding: 10px 5px;
+    }
+
+    .firm-info {
+        padding: 15px;
+    }
+
+    .mar-top {
+        margin-top: 25px;
+    }
+
+    .firm-info {
+        margin-top: 20px;
+    }
+
+    .law-box {
+        max-width: 460px;
+        margin: 15px auto;
+    }
+
+    .drop .dropdown-toggle {
+        padding: 4px 5px;
+    }
+
+    a.dot4 {
+        padding: 3px 7px;
+        
+    }
+
+    .department {
+        width: 40%;
+    }
+
+    h1.font-64 {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    h1.font-64 {
+        font-size: 36px;
+        line-height: 54px;
+        margin-top: 24px;
+        margin-bottom: 18px !important;
+    }
+
+    .banner-text {
+        margin-bottom: 45px;
+    }
+
+    .icon-center img {
+        margin-top: 0;
+    }
+
+    .counter-center {
+        padding: 0;
+    }
+
+    .reverse-mobile {
+        flex-direction: column-reverse;
+    }
+
+    .font-45 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    p.font-24 {
+        font-size: 16px;
+        line-height: 23.76px;
+    }
+
+    .font-22 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+    .accordion-bg-s {
+        margin: 0 6px;
+    }
+
+    a.answers {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .accordion-body p.font-13 {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    .drop .dropdown-toggle {
+        font-size: 9px;
+        line-height: 14px;
+    }
+
+    .accordion-button p.font-20 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    p.font-15 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .accordion-body h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .text-slid h2 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .text-slid .font-20 {
+        font-size: 16px;
+        line-height: 25.5px;
+    }
+
+    img.find-logo {
+        max-width: 200px;
+    }
+
+    .steps p.font-28 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .see-more {
+        font-size: 12px;
+        line-height: 20.1px;
+    }
+
+    .legal-box {
+        max-width: 400px;
+    }
+
+    img.legal--2 {
+        bottom: 0;
+    }
+
+    .client-part {
+        margin-top: 50px;
+    }
+
+    .why-b {
+        height: unset;
+    }
+
+    img.ft-logo {
+        margin-bottom: 35px;
+    }
+
+    ul.social li a {
+        font-size: 16px;
+    }
+
+    .wer-3 {
+        right: 0;
+    }
+
+    .wer-1 {
+        right: 0;
+    }
+
+    button.navbar-toggler {
+        background: #fff;
+    }
+
+    div#profile p.name-uaser {
+        font-size: 17px;
+        line-height: 19px;
+    }
+
+    div#profile p.short-mes {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    ul#myTab button {
+        font-size: 16px;
+    }
+
+    .offcanvas .online-a a {
+        font-size: 14px;
+    }
+
+    ul.menu-left li a {
+        padding: 5px 27px;
+        font-size: 16px;
+        line-height: 33.6px;
+    }
+
+    ul#myTab li.nav-item {
+        width: 50%;
+    }
+
+    .department {
+        width: 49%;
+    }
+
+    span.glass {
+        display: none;
+    }
+
+    .search-drop {
+        margin-top: 0;
+    }
+
+    h1.font-64 {
+        margin-top: 0;
+        margin-bottom: 8px !important;
+    }
+
+    .department {
+        font-size: 12px;
+    }
+
+    i.crown-p {
+        right: 10%;
+        bottom: 3%;
+    }
+
+    .table-responsive table.table {
+        width: 320px;
+/*        display: block;*/
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+}
+
+
+
+@media (min-width:767px) {
+    .pro-1 h3 br {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .drop .dropdown-toggle {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    #chats-slots p {
+        font-size: 12px;
+    }
+
+    .plus-icn-servie h1 {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    .plus-icn-servie img {
+        width: 10px;
+        margin: 0 0 0 5px;
+    }
+
+    .plus-icn-servie h1 {
+        font-size: 10px !important;
+    }
+
+    .d-flex1 li h1 {
+        font-size: 20px;
+    }
+
+    .form.form-cate {
+        padding: 0;
+    }
+
+    .mt-class {
+        margin-top: 25px;
+    }
+
+    div#border-cover-section .form-select {
+        height: 50px;
+    }
+
+    #pdf-file a {
+        padding: 15px 22px;
+    }
+
+    .pro-1 h3 {
+        font-size: 48px;
+        line-height: 51.36px;
+    }
+
+    .chat-slots-left div {
+        padding: 7px 10px;
+    }
+
+    .box-1 {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    i.crown-p {
+        right: 32%;
+        bottom: 3%;
+    }
+
+    .span-color {
+        color: #3dc9a1;
+        font-size: 14px;
+    }
+
+    .i-accept input[type="checkbox"] {
+        width: 13px;
+        height: 13px;
+    }
+
+    .i-accept label {
+        font-size: 12px;
+    }
+
+    .text-right.m-center a.next-step-btn {
+        margin-top: 15px;
+    }
+
+    a.next-step-btn {
+        font-size: 16px;
+        line-height: 29px;
+        width: 100%;
+        padding: 6px 0;
+    }
+
+    .box-redi.card-summary {
+        margin-bottom: 30px;
+    }
+
+    .card-summary p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #summary-law i.crown-p {
+        bottom: -2px;
+        font-size: 21px;
+        right: 6px;
+    }
+
+    ul.step-ul li a {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    ul.step-ul li a .fa-angles-right {
+        top: 14px;
+    }
+
+    .box-redi h3 {
+        font-size: 22px;
+        line-height: 10px;
+        padding: 20px 20px;
+
+    }
+
+    .box-redi h4 {
+        font-size: 20px;
+        line-height: 23px;
+        margin: 25px 0;
+    }
+
+    .cards.needs.alg {
+        display: none;
+    }
+
+    .dn {
+        display: unset;
+    }
+
+    .need-lawyer {
+        background: rgba(194, 221, 228, 0.5);
+        padding: 25px 12px;
+    }
+
+    .abu {
+        padding-left: 0;
+        padding: 20px 6px;
+    }
+
+    .cards.needs {
+        margin: 0 6px;
+    }
+
+    .Hire h5 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 20px;
+    }
+
+    .ser-box h5 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .ser-box h5 {
+        height: 55px;
+    }
+
+    .faq-box h3 {
+        font-size: 40px;
+        line-height: 55.6px;
+    }
+
+    .faq-box .accordion-header button {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .faq-box .accordion-body {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .testimonials-part-owl h2 {
+        font-size: 40px;
+        line-height: 55.6px;
+        text-align: center;
+    }
+
+    .testimonials-part-owl p.we-quickly {
+        font-size: 16px;
+        line-height: 26.8px;
+    }
+
+    .testimonials-part-owl p.name {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .testimonials-part-owl p.short-p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .testimonials-part-owl .short-text {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .testimonials-part-owl ul.star-part li {
+        font-size: 10px;
+        padding: 0 2px;
+    }
+
+    ul.star-part-2 li {
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .law-box p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .eye-pri {
+        width: 30px;
+        height: 30px;
+        padding: 8px;
+        font-size: 11px;
+    }
+
+    i.crown-p {
+        bottom: 0;
+        font-size: 26px;
+    }
+
+
+    .mobile-show {
+        display: unset;
+    }
+
+    .dask-show {
+        display: none;
+    }
+
+    p.font-14 {
+        font-size: 10px;
+        line-height: 13.5px;
+    }
+
+    .short-text {
+        font-size: 5px;
+        line-height: 7.5px;
+    }
+
+    .steps {
+        height: unset;
+    }
+
+    p.we-quickly {
+        font-size: 7px;
+        line-height: 9.87px;
+    }
+
+    p.name {
+        font-size: 8px;
+        line-height: 12px;
+    }
+
+    p.short-p {
+        font-size: 6px;
+        line-height: 9px;
+    }
+
+    button.navbar-toggler {
+        display: none !important;
+    }
+
+    section {
+        padding: 50px 0;
+    }
+
+    nav.main-menu a.navbar-brand {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .icon-center img {
+        margin-top: 13px;
+    }
+
+    .about-part {
+        padding-top: 0;
+    }
+
+    .steps-part {
+        padding-top: 0;
+    }
+
+    .d-flx-m {
+        display: flex;
+    }
+
+    .img-tag {
+        width: 30%;
+        padding: 0 11px;
+    }
+
+    .text-tag {
+        width: 70%;
+    }
+
+    .steps p.font-28 {
+        margin: 0 0 6px 0;
+    }
+
+    .steps h4 {
+        font-size: 50px;
+        line-height: 53.6px;
+    }
+
+    .card-ali {
+        width: 210px;
+        margin: 0 0 0 -30px;
+    }
+
+    img.pro-1-1 {
+        position: relative;
+        left: -19px;
+        width: 50px;
+    }
+
+    img.pro-3 {
+        bottom: unset;
+        width: 55px;
+        top: 14px;
+        right: 60px;
+    }
+
+    .pro-2 {
+        top: 100px;
+        right: 19px;
+        width: 43px;
+    }
+
+    img.legal--1 {
+        width: 36px;
+    }
+
+    img.Ellipse {
+        right: -65px;
+        width: 63px;
+    }
+
+    img.Group {
+        width: 70px;
+        right: 4px;
+        top: 50px;
+    }
+
+    .pro-1 h3 {
+        position: relative;
+        z-index: 99;
+    }
+
+    .pro-1 {
+        height: unset;
+    }
+
+    .pro-1.bron.bg-broun {
+        margin-top: 35px;
+    }
+
+    .m-p-0 {
+        padding: 0;
+    }
+
+    .client-part i.quote-icon {
+        font-size: 90px;
+        right: 22px;
+    }
+
+    img.legal--2 {
+        bottom: unset;
+        top: 150px;
+        width: 55px;
+    }
+
+    div#client-part .m-p-0 {
+        padding: 0 3px;
+    }
+
+    ul.star-part li {
+        padding: 0;
+    }
+
+    div#client-part ul.star-part {
+        display: flex;
+        padding: 2px;
+        justify-content: center;
+    }
+
+    #client-part {
+        transform: scale(0.9);
+    }
+
+    .test-round {
+        padding: 10px;
+    }
+
+    p.mor {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .more-box h4 {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    p.bhl {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .more-box {
+        height: 100px;
+        padding: 13px;
+        width: 140px;
+    }
+
+    .more-box.wer-3 {
+        width: 132px;
+        height: 90px;
+    }
+
+    .sign-up {
+        width: 200px;
+    }
+
+    .more-box.wer-2 {
+        width: 143px;
+        height: 102px;
+    }
+
+    .wer-2 {
+        top: 40%;
+    }
+
+    .works {
+        padding-left: 0;
+        padding-top: 30px;
+    }
+
+    .works h3 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .why-b {
+        padding: 20px;
+        height: 289px;
+    }
+
+    .why-b {
+        height: unset;
+    }
+
+    .why-b.Keep p {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .get-started {
+        padding: 0;
+    }
+
+    .are-you {
+        border-radius: 0;
+    }
+
+    img.legal-2- {
+        right: unset;
+        top: -250px;
+        left: 3px;
+    }
+
+    img.fav-icon {
+        width: 46px;
+        position: absolute;
+        top: -315px;
+        left: 0;
+    }
+
+    img.thum {
+        position: relative;
+        right: 8px;
+    }
+
+    .are-you-back {
+        width: 90%;
+        position: relative;
+        left: 10%;
+    }
+
+    .form {
+        padding: 25px 29px;
+    }
+
+    .forget a {
+        font-size: 12px;
+    }
+
+    ul.ft-list-a li a {
+        font-size: 15px;
+    }
+
+    .ft-list h5 {
+        font-size: 15px;
+        margin-top: 40px;
+    }
+
+    img.ft-logo {
+        margin-bottom: 20px;
+    }
+
+    p.copy-right {
+        font-size: 14px;
+        line-height: 35px;
+        text-align: center;
+        color: #7CC4BE;
+    }
+
+    img.ft-logo-2 {
+        width: 200px;
+    }
+
+    ul.social {
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+        margin: -58px 0 0 0;
+    }
+
+    .are-you {
+        overflow: hidden;
+    }
+
+    #Airtical .plus-icn-servie {
+        padding: 6px;
+        margin-left: 4px;
+    }
+
+    div#border-cover-section {
+        margin: 0px;
+        border: none;
+    }
+
+    .plus-icn-servie h1 {
+        font-size: 7px;
+    }
+
+    #Airtical .plus-icn-servie {
+        padding: 0px 0px;
+        margin-left: 5px;
+    }
+
+    .rev-35 {
+        font-size: 12px;
+    }
+
+    .text-cont {
+        font-size: 12px;
+    }
+
+    ul.star-part-2 {
+        width: 78px;
+    }
+
+    ul.star-part-2 li {
+        font-size: 10px;
+    }
+    div#chats-slots {
+        padding: 0px 0px;
+    }
+
+
+
+
+}
+
+@media (max-width:400px) {
+    ul.post-1 li a {
+        font-size: 7px;
+    }
+
+    a.dot4 {
+        padding: 0px 5px;
+    }
+
+    ul.post-1 li a img {
+        width: 10px;
+    }
+
+    .eles {
+        padding: 20px 15px;
+    }
+
+    ul.post-1.text-left a {
+        font-size: 11px;
+        padding: 7px 8px;
+    }
+
+}
+
+@media (max-width:370px) {
+    ul.star-part li {
+        font-size: 4px;
+    }
+
+    .card-ali {
+        margin: 0 0 0 -44px;
+    }
+
+    p.copy-right {
+        font-size: 12px;
+    }
+
+    nav.main-menu a.navbar-brand {
+        font-size: 26px;
+    }
+
+    ul#myTab button {
+        font-size: 13px;
+    }
+
+
+    .testimonials-part-owl p.name {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .testimonials-part-owl p.short-p {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    #summary-law h5 {
+        font-size: 15px;
+    }
+
+    #summary-law span.rev-35 {
+        font-size: 9px;
+    }
+
+    p.aed {
+        font-size: 12px;
+    }
+
+    p.aed span {
+        font-size: 12px;
+    }
+
+    .plus-icn-servie h1 {
+        font-size: 8px !important;
+    }
+}
+
+@media(max-width:1200px) {
+    div#hide-hidde-show {
+        display: none;
+    }
+}
+
+@media(min-width:1200px) {
+    div#hide-hidde-show {
+        display: block;
+    }
+
+    #hide {
+        display: block;
+    }
+
+    div#hide {
+        display: block;
+    }
+
+}
+
+@media(max-width:1200px) {
+    div#hide-hidde-show {
+        display: none;
+    }
+
+    #d-none {
+        display: none;
+    }
+}
+
+@media(max-width:1366px){
+    .tabs-inline li{
+        padding:0px 15px !important;
+    }
+    .chat-slots-left div {
+        padding: 10px 10px;
+        margin: 0px 8px 0px 0px;
+    }
+    .rev-35 {
+        font-size: 8px;
+    }
+}
+
+
+
+/*Start...........6-3-2023*/
+
+@media(max-width:1200px) {
+.d-flex1 span, p {
+    font-size: 16px !important; 
+}
+.d-flex1.class-add li h1 {
+    font-size: 16px !important; 
+
+}
+.d-flex1 h2 {
+    font-size: 16px !important;
+}
+ul.menu-left li a { 
+    padding: 5px 20px !important; 
+    font-size: 15px !important;
+    line-height: 35.6px !important; 
+}
+.d-flex1 li {
+    padding: 10px 15px !important;
+}
+.top-sp- {
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+
+.names.color-change span {
+    font-size: 11px;
+    line-height: 1.2;
+}
+.names.color-change p {
+    font-size: 16px;
+    line-height: 1.4;
+}
+ .booked.bg-none h4 {
+    font-size: 18px !important;
+} 
+div#view-1024-100 {
+    width: 100%;
+    margin-bottom: 17px;
+}
+.working-box {
+    padding: 20px;
+}
+a.dot4 { 
+    padding: 10px 15px; 
+    margin: 0px 5px;
+}
+.drop .dropdown-toggle { 
+    margin-right: 8px !important;
+}
+a.dot4.same-1024 {
+    padding: 5px 8px !important;
+    margin: 0px 5px;
+    font-size: 10px;
+}
+div#chats-slots {
+    padding: 0px 10px;
+}
+div#chats-slots .time-class.time-1 {
+    width: 45%;
+}
+
+
+
+}
+
+
+@media(max-width:991px) {
+.sidebar-expanded {
+    width: 210px;
+}
+ul.menu-left li a {
+    padding: 5px 10px !important;
+    font-size: 13px !important;
+    line-height: 31.6px !important;
+}
+img.user-li {
+    width: 50px;
+    height: 50px;
+}
+
+
+}
+
+
+@media(max-width:767px) {
+.working-box {
+    padding: 10px;
+}
+.d-flex1.class-add li h1 {
+    font-size: 14px !important;
+}
+.d-flex1 h2 {
+    font-size: 14px !important;
+}
+ul.d-flex1 li.sp-ek {
+    padding: 6px 18px !important;
+}
+.community-text1 .form {
+    padding: 10px;
+}
+.button-gropup img { 
+    height: 15px; 
+}
+input.form-control {
+    font-size: 10px;
+}
+
+
+
+}
+
+
+@media(max-width:403px) {
+.d-flex1 li {
+    padding: 7px 8px !important;
+}
+.d-flex1.class-add li h1 {
+    font-size: 12px !important;
+}
+.d-flex1 h2 {
+    font-size: 12px !important;
+}
+.d-flex1 span, li  p {
+    font-size: 12px !important;
+}
+.community-text2 { 
+    padding: 10px;
+}
+
+
+
+
+}
+
+
+@media(max-width:350px) {
+.d-flex1.class-add li h1 {
+    font-size: 10px !important;
+}
+.d-flex1 h2 {
+    font-size: 10px !important;
+}
+.d-flex1 span, li  p {
+    font-size: 10px !important;
+}
+a.dot4.same-1024 {
+    padding: 4px 6px !important;
+    margin: 0px 2px;
+    font-size: 9px;
+}
+
+
+
+}
+
+
+

@@ -1,0 +1,2 @@
+<button class="sidebar-menu-green-btn btn green"  id="sidebar-menu-green-btn1">Lawyers online ({{$onlineLawyers}})</button>
+<button class="sidebar-menu-green-btn btn green"  id="sidebar-menu-green-btn2"><span class="material-symbols-rounded sidebar-menu-green-btn-icon">language</span> All</button>

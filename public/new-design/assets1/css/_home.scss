@@ -1,0 +1,2423 @@
+.fix-height {
+    height: 69px;
+}
+
+.home-banner-section {
+
+    background-image: url(../image/home/banner-img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 150px;
+    position: relative;
+
+    @media(max-width:767px) {
+        padding-bottom: 110px;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(270deg, rgba(9, 63, 56, 0.42) 0%, #02201C 100%);
+    }
+
+
+    .inner-content-wraper {
+        margin: 0px 70px 0px 70px;
+        padding-top: 98px;
+
+        @media(max-width:767px) {
+            margin: 0px;
+            padding-top: 20px;
+
+        }
+    }
+
+    .home-banner-left-section {
+        z-index: 1;
+        position: relative;
+
+        img {
+            width: 560px;
+            height: 80px;
+            margin-top: 25px;
+            object-fit: contain;
+            width: 270px;
+
+            @media(max-width:767px) {
+                margin-top: 0px;
+            }
+        }
+
+        h1 {
+            color: #3DC9A1;
+            font-family: $pb;
+            font-size: 64px;
+            line-height: 70px;
+            padding-top: 35px;
+            margin-top: 0px;
+            margin-bottom: 10px;
+
+            @media(max-width:1199px) {
+                font-size: 40px;
+                line-height: 60px;
+            }
+
+            @media(max-width:767px) {
+                padding-top: 5px;
+                font-size: 34px;
+                line-height: 45px;
+            }
+
+
+
+            span {
+                color: white;
+            }
+
+            br {
+                @media(max-width:991px) {
+                    display: none;
+                }
+            }
+        }
+
+        p {
+            color: white;
+            font-family: $pr;
+
+            font-size: 16px;
+            line-height: 167.5%;
+            width: 535px;
+
+            @media(max-width:991px) {
+                width: auto;
+            }
+
+            @media(max-width:767px) {
+                font-size: 14px;
+            }
+        }
+
+
+
+    }
+
+    .home-banner-right-section {
+        position: relative;
+
+        .find-lawyer-card {
+            padding: 20px;
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 20px;
+
+            @media(max-width:767px) {
+                margin-bottom: 11px;
+                padding: 11px 20px 12px 20px;
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+                margin-top: 6px;
+
+                @media(max-width:767px) {
+                    width: 34px;
+                    height: 34px;
+                }
+            }
+
+            .find-lawyer-card-content {
+                padding-left: 30px;
+
+                h5 {
+                    font-family: $pb;
+
+
+
+                    font-size: 16px;
+
+                    @media(max-width:767px) {
+                        margin-bottom: 5px;
+                    }
+
+                }
+
+                p {
+                    font-family: $pr;
+
+                    font-size: 16px;
+                    line-height: 25px;
+
+                    @media(max-width:767px) {
+                        font-size: 12px;
+                        line-height: 116%;
+                    }
+
+                }
+            }
+
+        }
+
+        .hero-card1 {
+            background: #D8F4EC;
+            color: #208C84;
+            border: 1px solid #61bb97;
+            border-left: none;
+            border-top: none;
+
+            p {
+                color: #208C84;
+            }
+
+        }
+
+        .hero-card2 {
+            background: #C2DDE4;
+            border: 1px solid #1088d6;
+            border-left: none;
+            border-top: none;
+
+            p {
+                color: #156075;
+            }
+        }
+
+        .hero-card3 {
+            background: #EDEEC6;
+            color: #3F3309;
+            border: 1px solid #3f3309;
+            border-left: none;
+            border-top: none;
+
+            p {
+                color: #3F3309;
+            }
+        }
+
+        .hero-card4 {
+
+            background: #3DC9A1;
+            color: #FFFFFF;
+            border: 1px solid #2c716e;
+            border-left: none;
+            border-top: none;
+
+            p {
+                color: #FFFFFF;
+            }
+        }
+
+
+
+
+    }
+}
+
+
+
+
+
+.we-connect-clients {
+    padding-top: 42px;
+    background: #F4FEFA;
+    padding-bottom: 60px;
+
+    @media(max-width:767px) {
+        padding-top: 19px;
+        background: white;
+        padding-bottom: 20px;
+
+    }
+
+    .inner-wraper {
+        width: 90%;
+        margin: auto;
+
+        @media(max-width:991px) {
+            width: auto;
+        }
+    }
+
+    .counter-section {
+        width: 65%;
+        margin: auto;
+        margin-top: -82px;
+        background: #F4FEFA;
+        padding: 17px 15px;
+        border-radius: 5px;
+        z-index: 1;
+        position: relative;
+
+        @media(max-width:767px) {
+            width: 99%;
+            background: #F4FEFA;
+            border-radius: 10px;
+            margin-top: -93px;
+        }
+
+
+        .counter-part {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            @media(max-width:767px) {
+                justify-content: left;
+                align-items: flex-start;
+            }
+
+
+            h5 {
+
+                font-family: $pb;
+                font-size: 20px;
+
+
+
+                text-align: center;
+                color: #191919;
+
+                @media(max-width:991px) {
+                    font-size: 16px;
+                }
+
+                @media(max-width:767px) {
+                    font-size: 15px;
+                    margin-bottom: 10px;
+                    text-align: left;
+                }
+            }
+
+            h4 {
+                font-family: $pb;
+
+                font-size: 64px;
+
+
+
+
+                color: #208C84;
+                margin-bottom: 10px;
+
+                @media(max-width:1199px) {
+                    font-size: 40px;
+                }
+
+                @media(max-width:991px) {
+                    font-size: 35px;
+                }
+
+                @media(max-width:767px) {
+                    font-size: 32px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    .inner-wraper {
+        padding-top: 40px;
+
+        @media(max-width:767px) {
+            padding-top: 19px;
+        }
+    }
+
+    h1 {
+        font-family: $pb;
+
+
+
+        padding-top: 40px;
+
+        color: #208C84;
+        margin: 40px 0px 40px 0px;
+
+        @media(max-width:767px) {
+            margin: 30px 0px 10px 0px;
+            padding-top: 0px;
+        }
+
+        span {
+            color: #191919;
+        }
+    }
+
+    p {
+        font-family: $pr;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+
+
+
+        color: #191919;
+
+        @media(max-width:767px) {
+            font-size: 14px;
+            line-height: 23.76px;
+        }
+    }
+
+    .contact-now-btn {
+        margin-top: 60px;
+
+        @media(max-width:767px) {
+            margin-top: 30px;
+        }
+    }
+
+    .order-smm-1 {
+        @media(max-width:767px) {
+            order: 1 !important;
+        }
+    }
+
+    .order-smm-2 {
+        @media(max-width:767px) {
+            order: 2 !important;
+        }
+
+    }
+
+    .connect-clients-img {
+        padding-left: 40px;
+    }
+}
+
+.legal_advice {
+    padding-top: 84px;
+    padding-bottom: 80px;
+
+    @media(max-width:767px) {
+        padding-top: 0px;
+    }
+
+    .inner-wraper {
+
+
+        img {}
+
+        .legal_advice_content {
+            padding-left: 20px;
+
+            h5 {
+                margin-bottom: 14px;
+                font-family: $pr;
+
+                font-size: 22px;
+
+
+
+                letter-spacing: 0.06em;
+
+                color: #3DC9A1;
+            }
+
+            h2 {
+
+                font-family: $pb;
+
+                font-size: 36px;
+
+                line-height: 45px;
+                color: #208C84;
+
+                span {}
+            }
+
+            p {
+                margin-top: 14px;
+                font-family: $pr;
+
+                font-size: 16px;
+                line-height: 25px;
+
+
+                color: #191919;
+
+            }
+        }
+
+    }
+}
+
+.how-it-works {
+    background: #F4FEFA;
+    padding: 60px 0px 60px 0px;
+
+    @media(max-width:767px) {
+        padding: 0px 0px 25px 0px;
+        background: white;
+    }
+
+    .inner-wraper {
+
+
+        .how-it-img {
+            position: relative;
+
+
+
+            .img-rectanle {
+                position: absolute;
+                right: -26px;
+                bottom: -22px;
+                z-index: -1;
+            }
+
+
+            .how-it-img-card {
+                padding: 15px 20px;
+                width: auto;
+
+
+                h5 {
+                    font-family: $pm;
+                    font-size: 14px;
+
+
+
+
+                    color: #156075;
+                    margin-bottom: 5px;
+
+                    @media(max-width:767px) {
+                        font-size: 11px;
+                        line-height: 16px;
+                    }
+                }
+
+                h2 {
+                    font-family: $pb;
+
+                    font-size: 35px;
+
+
+
+
+                    color: #156075;
+
+                }
+
+                .lawyer-online-img {
+                    display: flex;
+                    align-items: center;
+
+                    h4 {
+                        font-family: $pb;
+
+                        font-size: 14px;
+                        line-height: 36px;
+
+
+
+                        color: #5B95A6;
+
+                        @media(max-width:767px) {
+                            font-size: 10px;
+                            line-height: 15px;
+                        }
+
+                    }
+
+                    img {
+                        width: 25px;
+
+                        margin-left: 20px;
+
+                        @media(max-width:767px) {
+                            width: 18px;
+
+                        }
+                    }
+                }
+            }
+
+            .img-card1 {
+                position: absolute;
+                top: 0px;
+                right: -61px;
+                top: 22px;
+                background: #C2DDE4;
+                box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+
+                @media(max-width:360px) {
+
+                    padding: 10px;
+                    top: 18px;
+                    right: -46px;
+                }
+            }
+
+            .img-card2 {
+            
+                width: auto;
+                position: absolute;
+                left: 15px;
+                top: 50%;
+                transform: translate(0%, -50%);
+                background: #C6EEE2;
+                box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+
+                @media(max-width:767px) {
+                    left: 10px;
+                }
+
+                @media(max-width:360px) {
+                    left: 8px;
+                    padding: 10px;
+
+                }
+
+                h5 {
+
+                    color: #208C84;
+
+
+                }
+
+                h2 {
+                    color: #208C84;
+
+
+                }
+
+                .lawyer-online-img {
+
+
+                    h4 {
+
+
+
+                        color: #208C84;
+
+
+                    }
+
+
+                }
+            }
+
+            .img-card3 {
+               
+                width: auto;
+                position: absolute;
+
+                right: -61px;
+                bottom: 22px;
+
+                background: #edeec6;
+                box-shadow: 0px 10px 10px rgb(0 0 0 / 10%);
+                border-radius: 15px;
+
+                @media(max-width:360px) {
+
+                    padding: 10px;
+                    bottom: 18px;
+                    right: -46px;
+                }
+
+                h5 {
+
+                    color: #3F3309;
+
+
+                }
+
+                h2 {
+                    color: #3F3309;
+
+
+                }
+
+                .lawyer-online-img {
+
+
+                    h4 {
+
+
+
+                        color: #3F3309;
+
+
+                    }
+
+
+                }
+            }
+        }
+
+
+        .how-it-works-content {
+
+            padding: 60px 0px 0px 15%;
+
+            @media(max-width:767px) {
+                padding: 30px 0px 0px 0px;
+            }
+
+            h5 {
+                text-align: left;
+            }
+
+            h1 {
+                font-family: $pb;
+
+                font-size: 36px;
+                line-height: 54px;
+                margin-bottom: 9px;
+
+
+                color: #191919;
+            }
+
+            p {
+                font-family: $pr;
+
+                font-size: 16px;
+                line-height: 25px;
+
+
+
+
+                color: #191919;
+                padding-right: 17%;
+
+                @media(max-width:767px) {
+                    padding: 0px;
+                    font-size: 14px;
+                    line-height: 24px;
+
+                }
+            }
+        }
+    }
+}
+
+.legal_services {
+    padding: 60px 0px;
+    background: #F4FEFA;
+
+    @media(max-width:767px) {
+        padding: 34px 0px;
+    }
+
+.legal_services_card_header {
+    text-align: center;
+    margin-bottom: 20px;
+
+
+
+    h5 {
+        font-family: $pb;
+
+        font-weight: 600;
+        font-size: 36px;
+
+
+        text-align: center;
+
+        color: #191919;
+
+        line-height: 45px;
+
+        @media(max-width:991px) {
+            font-size: 30px;
+        }
+
+        @media(max-width:767px) {
+            line-height: 1.2;
+        }
+
+    }
+
+    p {
+        font-family: $pb;
+        font-size: 36px;
+        line-height: 45px;
+
+
+
+        text-align: center;
+        color: #208C84;
+
+        @media(max-width:991px) {
+            font-size: 30px;
+        }
+
+        @media(max-width:767px) {
+            line-height: 1.2;
+        }
+
+
+        span {
+            color: #191919;
+        }
+    }
+}
+    .legal_services_card {
+      
+  transition: transform .2s;
+        &:hover{
+            transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+        }
+
+
+
+        .legal_services_card_wraper {
+
+            padding: 20px 30px 40px 30px;
+
+            @media(max-width:767px) {
+                padding: 20px 20px 30px 20px;
+                margin-bottom: 11px;
+            }
+
+            .card-number {
+                text-align: right;
+
+                h2 {
+                    font-family: $pb;
+                    font-size: 96px;
+
+                    @media(max-width:767px) {
+                        font-size: 32px;
+                    }
+
+
+
+
+                }
+            }
+
+            .card_description {
+                @media(max-width:767px) {
+                    display: flex;
+                }
+
+                img {
+                    width: 118px;
+
+                    @media(max-width:991px) {
+                        width: 80px;
+                    }
+
+                    @media(max-width:767px) {
+                        width: 64px;
+                        height: 64px;
+                        margin-right: 19px;
+
+                    }
+                }
+
+                p {
+                    font: 22px $pb;
+                    margin-top: 45px;
+
+
+                    color: #093F38;
+
+                    @media(max-width:991px) {
+                        font-size: 18px;
+                    }
+
+                    @media(max-width:767px) {
+                        margin-top: 0px;
+                        font-size: 16px;
+
+                    }
+                }
+
+                button {
+                    font-family: $pr;
+                    padding: 9px 10px;
+                    margin-top: 40px;
+                    font-size: 14px;
+                    border-radius: 0px;
+                    border: none;
+
+                    @media(max-width:767px) {
+                        margin-top: 10px;
+
+                    }
+
+
+
+                    span {
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+
+        .bglight {
+            background: #C6EEE2;
+        }
+
+        .bgdark {
+            background: #C2DDE4;
+        }
+
+        .bgyellow {
+            background: #EDEEC6;
+        }
+
+        .text-green {
+            color: #093F38;
+        }
+
+        .text-blue {
+            color:
+                #156075;
+        }
+
+        .text-yellow {
+            color: #3F3309;
+        }
+
+        .btn-light {
+            background: #98D9C4;
+        }
+
+        .btn-dark {
+            background: #85BACA;
+        }
+
+        .btn-yellow {
+            background: #CFD09D;
+        }
+
+    }
+
+    .mt-top {
+        margin-top: 100px;
+
+        @media(max-width:991px) {
+            margin: 0px;
+        }
+    }
+
+    .mrg-10 {
+        margin: 10px;
+
+        @media(max-width:991px) {
+            margin: 0px;
+        }
+    }
+
+   
+    .card-header-md {
+        @media(max-width:991px) {
+            display: none;
+        }
+    }
+
+    .card-header-sm {
+        @media(min-width:992px) {
+            display: none;
+        }
+    }
+}
+
+.testimonials {
+    margin-bottom: -3px;
+
+
+    @media(max-width:767px) {
+        padding-bottom: 30px;
+        margin-bottom: 0px;
+
+    }
+
+    .testimonials-content {
+        padding-right: 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+
+        @media(max-width:991px) {
+            margin-bottom: 30px;
+        }
+
+        @media(max-width:767px) {
+            padding-top: 35px;
+            margin-bottom: 0px;
+        }
+
+        .title-card {
+            display: flex;
+            justify-content: space-between;
+
+            .title {
+                h6 {
+                    text-align: left;
+                }
+
+                h1 {
+                    font-family: $pb;
+
+
+
+
+
+                    color: #208C84;
+                    color: #208C84;
+
+                    @media(max-width:767px) {
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+
+        img {
+            width: 90px;
+            height: 90px;
+
+            @media(max-width:767px) {
+                width: 70px;
+                height: 70px;
+                margin-top: 20px;
+            }
+
+        }
+
+        p {
+            margin-top: 33px;
+            font-family: $pr;
+
+            font-size: 14px;
+            line-height: 25px;
+            padding-right: 22%;
+
+
+
+            color: #191919;
+
+            @media(max-width:767px) {
+                margin-top: 20px;
+            }
+        }
+
+        button {
+            font: 14px $pr;
+            text-align: left;
+            padding-left: 0px;
+            padding-top: 20px;
+
+            @media(max-width:767px) {
+                margin-bottom: 18px;
+            }
+
+
+
+            color: #208C84;
+
+            span {
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .mesage-card {
+
+        .first-card-sm-img {
+            height: 80px;
+
+            @media(max-width:991px) {
+                height: auto;
+            }
+
+        }
+
+        .first-card-sm-hide {
+            @media(max-width:767px) {
+                display: none;
+            }
+        }
+
+        .secend-card-sm-img {
+            height: 180px;
+
+            @media(max-width:991px) {
+                height: auto;
+            }
+
+        }
+
+
+
+        .message-card-wraper {
+            background: #FFFFFF;
+            border: 1px solid #3DC9A1;
+            border-radius: 30px 30px 30px 0px;
+            padding: 15px;
+            margin: 20px 0px;
+
+            @media(max-width:767px) {
+                margin: 9px 0px;
+            }
+
+            p {
+                font-family: $pr;
+                font-style: italic;
+                font-size: 14px;
+                line-height: 25px;
+
+                @media(max-width:767px) {
+                    font-size: 7px;
+                    line-height: 141%;
+                }
+
+
+
+                color: #191919;
+
+
+
+            }
+
+            .message-card-description {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 15px;
+
+                @media(max-width:767px) {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+
+                .img-description {
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 58px;
+                        height: 58px;
+                        margin-right: 6px;
+
+                        @media(max-width:767px) {
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+
+                    h5,
+                    h6 {
+                        font-family: $pb;
+                        font-size: 16px;
+                        color: #191919;
+
+                        @media(max-width:767px) {
+                            font-size: 10px;
+                            line-height: 12px;
+                        }
+
+                    }
+
+                    h6 {
+                        font-family: $pr;
+                        font-size: 14px;
+                        margin-top: 5px;
+
+                        @media(max-width:767px) {
+                            font-size: 10px;
+                            line-height: 12px;
+                            margin-top: 2px;
+                        }
+                    }
+                }
+
+                .ratings {
+                    @media(max-width:767px) {
+
+                        margin-top: 10px;
+                    }
+
+                    .ratings-card {
+                        display: flex;
+
+                        img {
+                            width: 18px;
+                            margin-left: 5px;
+
+                            @media(max-width:767px) {
+                                width: 9px;
+                            }
+                        }
+                    }
+
+                    h5 {
+                        text-align: right;
+                        margin-top: 10px;
+                        font-size: 12px;
+
+                        @media(max-width:767px) {
+                            font-size: 5px;
+                            margin-top: 5px;
+
+                        }
+                    }
+                }
+
+            }
+
+
+
+        }
+
+        .bg-green {
+            background: #3DC9A1;
+        }
+
+
+    }
+
+    .md-hide {
+        @media(max-width: 767px) {
+            display: none !important;
+        }
+    }
+
+    .sm-hide {
+        @media(min-width: 768px) {
+            display: none !important;
+        }
+    }
+}
+
+
+
+.why-register {
+    background: #E5EAED;
+    padding: 56px 0px 90px 0px;
+
+    @media(max-width:767px) {
+        background: none;
+        padding: 0px 0px 40px 0px;
+
+
+    }
+
+    .whyregister-card {
+        background: #C2DDE4;
+        padding: 50px 68px 51px 68px;
+        height: 100%;
+
+        @media(max-width:767px) {
+            padding: 32px 15px;
+        }
+
+        h1 {
+            font-family: $pb;
+
+            font-weight: 700;
+
+            margin: 0px;
+
+            color: #156075;
+        }
+
+        p {
+            font-family: $pr;
+
+            font-size: 14px;
+            line-height: 27px;
+            margin-top: 13px;
+
+
+
+            color: #191919;
+
+            @media(max-width:767px) {
+                margin-top: 10px;
+                line-height: 22px;
+            }
+
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            margin-top: 15px;
+
+            @media(max-width:767px) {
+                transform: rotate(90deg);
+            }
+        }
+
+    }
+
+    .whyregister-right-card {
+        padding: 34px 51px 34px 51px;
+        height: 100%;
+        background: white;
+
+        @media(max-width:767px) {
+            padding: 34px 15px 14px 0px;
+        }
+
+        .right-card-img-content {
+            display: flex;
+            margin-bottom: 21px;
+
+            img {
+                width: 50px;
+                height: 50px;
+            }
+
+            p {
+                font-family: $pr;
+
+                font-size: 14px;
+                line-height: 27px;
+                margin-left: 24px;
+                width: 339px;
+
+
+                color: #191919;
+
+                @media(max-width:767px) {
+                    width: auto;
+                    margin-left: 14px;
+                    line-height: 24px;
+                }
+
+            }
+        }
+    }
+
+    .get-started-section {
+        background: white;
+        padding: 46px;
+        margin-top: 39px;
+
+        @media(max-width:767px) {
+            padding: 0px;
+            margin-top: 0px;
+        }
+
+        .get-started-row {
+            background: #C6EEE2;
+            border-radius: 10px;
+
+
+            .right-img {
+
+
+                margin-bottom: 60px;
+
+                @media(max-width:767px) {
+                    width: 75%;
+                    margin-bottom: 20px;
+                }
+            }
+
+
+            .areyou-lawyer-card-img {
+                position: relative;
+
+
+                @media(max-width:767px) {
+                    display: flex;
+                    justify-content: flex-end;
+                    padding: 13px 0px 0px 12px;
+                    background: #C6EEE2;
+                    border-top-left-radius: 10px;
+                    border-top-right-radius: 10px;
+
+
+
+                }
+
+                .are-you-lawyer-img-sm {
+                    width: 40px;
+                    height: 40px;
+
+                    @media(min-width:768px) {
+                        display: none;
+                    }
+
+                    @media(max-width:767px) {
+                        margin-right: -3px;
+                    }
+
+
+                }
+
+                .qoute-img-sm {
+                    width: 40px;
+                    height: 40px;
+                    position: relative;
+                    top: 66px;
+                    left: -33px;
+
+                    @media(min-width:768px) {
+                        display: none;
+                    }
+
+                    @media(max-width:360px) {
+                        top: 49px;
+                        left: -12px;
+                    }
+
+
+                }
+
+                .quote-img1 {
+                    // position: absolute;
+                    width: 50px;
+                    position: absolute;
+                    top: -48px;
+                    left: 32px;
+
+                }
+
+                .call-img {
+
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                    left: -53px;
+                    top: -21px;
+
+                    @media(max-width:991px) {
+
+                        top: 2px;
+                    }
+
+
+                }
+
+                .like-img {
+
+                    width: 60px;
+                    height: 60px;
+                    position: absolute;
+                    top: 22px;
+                    right: -77px;
+
+                }
+            }
+
+            .areyou-lawyer-card {
+
+                .areyou-lawyer-card-body {
+                    background: #FFFFFF;
+                    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+                    border-radius: 15px;
+                    padding: 15px;
+                    width: 136px;
+                    height: 160px;
+                    text-align: center;
+
+                    @media(max-width:767px) {
+                        height: 144px;
+                    }
+                }
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 10px;
+                }
+
+                h4 {
+                    font-family: $pb;
+
+                    font-size: 16px;
+
+
+                    color: #191919;
+                    margin-bottom: 4px;
+
+                    @media(max-width:767px) {
+                        font-size: 14px;
+                    }
+
+                }
+
+                h5 {
+                    font-family: $pr;
+
+                    font-size: 14px;
+                    line-height: 21px;
+
+
+                    color: #191919;
+
+                    @media(max-width:767px) {
+                        font-size: 14px;
+                        line-height: 14px;
+                    }
+
+                }
+            }
+
+            .lawyer-card1 {
+                position: absolute;
+                top: 90px;
+                left: 22px;
+
+                @media(max-width:1199px) {
+                    left: -17px;
+                }
+
+                @media(max-width:991px) {
+                    left: -6px;
+                }
+
+                @media(max-width:767px) {
+                    left: auto;
+                    right: 158px
+                }
+            }
+
+            .lawyer-card2 {
+
+                top: 90px;
+                left: 190px;
+                position: absolute;
+
+                @media(max-width:1400px) {
+                    left: 170px;
+                }
+
+                @media(max-width:1199px) {
+                    left: 127px;
+                }
+
+                @media(max-width:991px) {
+                    left: 140px;
+                }
+
+                @media(max-width:767px) {
+                    left: auto;
+                    right: 10px;
+                }
+            }
+
+            .lawyer-card3 {
+
+                position: absolute;
+                top: 280px;
+                left: 107px;
+
+                @media(max-width:1199px) {
+                    top: 258px;
+                    left: 56px
+                }
+
+                @media(max-width:991px) {
+                    top: 260px;
+                    left: 68px;
+                }
+
+                @media(max-width:767px) {
+                    top: 249px;
+                    left: 192px;
+                }
+
+                @media(max-width:425px) {
+
+                    left: 134px;
+                }
+
+                @media(max-width:375px) {
+
+                    left: 60px;
+                }
+
+            }
+
+            .order_sm1 {
+                @media(max-width:767px) {
+                    order: 1;
+                }
+
+            }
+
+            .order_sm2 {
+                @media(max-width:767px) {
+                    order: 2;
+                }
+
+
+            }
+        }
+
+        .are-you-lawyer {
+
+            position: relative;
+            padding: 20px 0px 20px 20px;
+
+            @media(max-width:767px) {
+                padding: 0px 12px 0px 12px;
+                background: #C6EEE2;
+                border-bottom-left-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+
+            img {
+                width: 60px;
+                height: 60px;
+            }
+
+            .are-you-lawyer-img {
+                @media(max-width:767px) {
+                    display: none;
+                }
+            }
+
+
+
+            .qoute-img {
+                position: absolute;
+                right: 0px;
+                top: 117px;
+
+                @media(max-width:767px) {
+                    display: none;
+                }
+            }
+
+            .are-you-lawyer-content {
+                padding-left: 20px;
+                padding-top: 145px;
+
+                @media(max-width:767px) {
+                    padding: 30px 0px 30px 0px;
+                }
+
+                @media(max-width:360px) {
+                    padding: 90px 0px 30px 0px;
+                }
+
+                h1 {
+                    font: 35px $pb;
+
+                    font-weight: 700;
+
+
+
+
+                    color: #208C84;
+                    margin-bottom: 14px;
+
+                    @media(max-width:767px) {
+                        margin-bottom: 5px;
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+                }
+
+                p {
+                    font-family: $pr;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+
+
+
+                    color: #191919;
+
+                    @media(max-width:767px) {
+                        width: auto;
+                        font-size: 14px;
+                        line-height: 20px;
+                    }
+
+                }
+
+                .contact-now-btn {
+                    
+                    img {
+                        width: 20px;
+                        height: 20px;
+                    }
+                    button{
+                        padding: 0px 60px 0px 10px;
+                    }
+                }
+            }
+
+
+
+        }
+    }
+
+    .getstarted-section {
+        padding: 20px 0px 0px 10px;
+
+        @media(max-width:767px) {
+            padding-left: 0px;
+        }
+
+
+        h1 {
+            font-family: $pb;
+
+
+            /* identical to box height */
+
+            text-align: center;
+
+            color: #191919;
+            margin: 10px 0px 0px 0px;
+        }
+
+        h5 {
+            text-align: center;
+            font-family: $pr;
+
+            font-size: 14px;
+            line-height: 30px;
+
+
+
+            color: #191919;
+
+            button {
+                margin-left: 4px;
+                padding: 0px;
+                font-size: 14px;
+                color:
+                    #3DC9A1;
+
+            }
+        }
+
+        form {
+            margin-top: 30px;
+
+            input {
+                border: none;
+                border-bottom: 1px solid #191919;
+                border-radius: 0px;
+                margin-bottom: 15px;
+            }
+
+            .forgot-password-btn {
+                text-align: right;
+                margin-bottom: 32px;
+
+                button {
+                    font-family: $pr;
+
+                    font-size: 14px;
+                    border: none;
+                    background: none;
+
+
+                    color: #3DC9A1;
+
+                    @media(max-width:767px) {
+                        font-size: 12px;
+                    }
+
+
+                }
+            }
+
+            .sign-up {
+                text-align: center;
+
+                .sign-up-btn {
+
+                    border: none;
+                    background: #208C84;
+                    font-family: $pr;
+                    padding: 16px 75px;
+
+
+
+
+                    color: #FFFFFF;
+                }
+            }
+
+        }
+    }
+}
+
+.connect-legal-section {
+    background: #E8F8F2;
+    padding: 60px 0px 60px 0px;
+
+    .inner-wraper {
+        width: 85%;
+        margin: auto;
+
+        @media(max-width:991px) {
+            width: 100%;
+        }
+
+        .connect-legal-card {
+            background: white;
+
+            border-radius: 30px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 25px;
+        }
+
+        .lawyers-online {
+            background: #F2F2F2;
+
+            padding: 17px 20px 17px 20px;
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+
+            h5 {
+                font-family: $pr;
+
+                font-size: 16px;
+
+
+
+                color: #208C84;
+                margin-left: 13px;
+
+                @media(max-width:767px) {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        .lawyers-online-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            background: #E8F8F2;
+            padding: 17px 20px 17px 20px;
+
+            h5 {
+                color: #208C84;
+                font-family: $pr;
+
+
+                font-size: 14px;
+
+                @media(max-width:767px) {
+                    font-size: 12px;
+                }
+
+            }
+
+            .all {
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 16px;
+                }
+
+                h6 {
+                    margin-left: 5px;
+                    font-family: $pr;
+
+
+                    font-size: 14px;
+
+
+
+
+                    color: #208C84;
+
+                    @media(max-width:767px) {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .connect-legal-logo {
+            text-align: center;
+            padding: 17px 20px 17px 20px;
+
+
+            img {
+                width: 100%;
+
+            }
+        }
+
+        .connect-legal-post-card {
+            display: flex;
+            justify-content: space-between;
+            background: white;
+
+
+            transition: transform .2s;
+            padding: 17px 20px 17px 20px;
+
+            .connect-legal-post {
+                display: flex;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    margin-right: 10px;
+
+                    @media(max-width:767px) {
+                        width: 36px;
+                        height: 36px;
+                    }
+                }
+
+                h5,
+                h6 {
+                    font-family: $pb;
+
+                    font-size: 16px;
+
+
+
+
+                    color: #191919;
+
+                    @media(max-width:767px) {
+                        font-size: 15px;
+                    }
+
+                }
+
+                h6 {
+                    font-family: $pr;
+
+                    @media(max-width:767px) {
+                        margin-top: 5px;
+                    }
+
+
+                }
+            }
+
+            .connect-legal-premium {
+                text-align: center;
+
+                img {
+                    width: 30px;
+
+                    @media(max-width:767px) {
+                        width: 21px;
+                    }
+                }
+
+                h4 {
+                    font-family: $pr;
+
+                    font-size: 14px;
+
+
+                    color: #FFB743;
+
+                    @media(max-width:767px) {
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            &:hover {
+                transform: scale(1.2);
+                box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                border: none !important;
+            }
+        }
+
+        .connect-legal-post-card {}
+
+        .bottom-line {
+            border-bottom: 1px solid #D9D9D9;
+        }
+
+        .legal-services {
+            padding-top: 50px;
+            padding-left: 46px;
+
+            @media(max-width:767px) {
+                padding-left: 0px;
+            }
+
+            #section {
+
+                word-wrap: break-word;
+            }
+
+            .moretext {
+                display: none;
+            }
+
+            h5 {
+                text-align: left;
+
+                @media(max-width:767px) {
+                    font-size: 15px;
+                    line-height: 167.5%;
+                }
+            }
+
+            h1 {
+                font-family: $pb;
+
+
+
+
+                margin: 19px 0px 25px 0px;
+
+                @media(max-width:767px) {
+                    margin: 19px 0px 10px 0px;
+                }
+
+                span {
+                    color: #208C84;
+                }
+            }
+
+            .legal-services-content {
+                margin-bottom: 20px;
+
+                p {
+                    font-family: $pr;
+
+
+                    line-height: 167.5%;
+
+
+
+                    color: #191919;
+
+                    a {
+                        color: #3DC9A1;
+                    }
+
+                }
+            }
+
+            .legal-service-icon-card {
+                display: flex;
+                align-items: center;
+                padding: 17px 25px 17px 25px;
+
+                @media(max-width:767px) {
+                    padding: 10px 25px 10px 25px;
+                }
+
+                &:hover {
+                    background: #C6EEE2;
+                }
+
+                img {
+                    width: 28px;
+
+                    @media(max-width:767px) {
+                        font-size: 17px;
+                    }
+
+                }
+
+                h5 {
+                    font-family: $pm;
+
+                    font-size: 14px;
+                    line-height: 33px;
+                    margin-left: 12px;
+
+
+
+                    color: #191919;
+
+                    @media(max-width:767px) {
+                        font-size: 12px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// add width for side nav
+.add-width {
+    width: 300px;
+}
+
+.pd_sm_0 {
+    @media(max-width:767px) {
+        padding: 0px;
+    }
+
+}
+
+.my-question-slider {
+    background: #F4FEFA;
+
+    @media(max-width:767px) {
+        background: #D8F4EC;
+        padding-bottom: 10px;
+
+    }
+
+    .my-question-card-wraper {
+        background: #D8F4EC;
+        padding: 30px 30px 80px 30px;
+
+        @media(max-width:767px) {
+            padding: 30px 0px 0px 0px;
+
+        }
+
+        .my-question-card {
+            background: #FFFFFF;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+
+            @media(max-width:767px) {
+                margin-bottom: 30px;
+            }
+
+            .title {
+                display: flex;
+                justify-content: space-between;
+
+                h1 {
+
+
+                    color: #208C84;
+                    margin-bottom: 10px;
+
+                }
+
+                img {
+                    width: 25px;
+                    height: 25px;
+                    object-fit: contain;
+
+                    @media(max-width:767px) {
+                        transform: rotate(90deg);
+                        width: 18px;
+                        height: 18px
+                    }
+                }
+            }
+
+
+            p {
+
+                font-size: 14px;
+                line-height: 21px;
+                margin-bottom: 15px;
+
+
+
+            }
+
+            .my-question-card-date {
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+
+                @media(max-width:991px) {
+                    flex-direction: column;
+                }
+
+                h4 {
+                    font-family: $pb;
+
+                    font-weight: 700;
+                    font-size: 15px;
+
+                    line-height: 22px;
+                    /* identical to box height */
+
+
+                    color: #3DC9A1;
+
+                }
+
+                .relavent-date {
+                    direction: flex;
+
+                    h5 {
+                        font-family: $pr;
+                        font-size: 13px;
+                        line-height: 20px;
+                        text-align: right;
+
+                        @media(max-width:991px) {
+                            margin: 5px 0px 0px 0px;
+                            text-align: left;
+                        }
+
+
+
+
+
+                    }
+
+                    .relavent-body {
+                        display: flex;
+                        align-items: center;
+                        margin-top: 10px;
+
+                        .relavent {
+                            display: flex;
+                            margin-left: 10px;
+
+                            @media(max-width:991px) {
+                                margin: 0px 10px 0px 0px;
+                            }
+
+                            h3 {
+                                font-family: $pr;
+                                font-size: 13px;
+                                line-height: 20px;
+                                margin-left: 10px;
+
+
+                            }
+
+                            .relevent-picker {
+                                padding: 7px 10px;
+                                display: flex;
+
+                                border: 1px solid #208C84;
+                                border-radius: 15.5px;
+
+                                span {
+                                    margin-right: 10px;
+                                }
+
+                                .relevent-picker-btn {
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    button {
+                                        padding: 0px;
+
+                                        img {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+            }
+
+            .myquestion-dropdown-card {
+                margin-bottom: 10px;
+
+                .profile-card {
+                    display: flex;
+                    padding: 12px 20px 12px 20px;
+                    background: #E8F8F2;
+                    border-radius: 10px;
+
+                    img {
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+
+                .profile-card-desig {
+                    margin-left: 10px;
+
+                    h4 {
+                        font-family: $pb;
+
+                        font-size: 14px;
+                        line-height: 22px;
+                        /* identical to box height */
+
+
+                        color: #191919;
+                    }
+
+                    h5 {
+                        font-family: $pr;
+
+                        font-size: 14px;
+                        line-height: 22px;
+                        /* identical to box height */
+
+
+
+
+                    }
+                }
+            }
+        }
+
+        .features-card {
+            padding-right: 20px;
+            padding-left: 9%;
+
+            @media(max-width:1199px) {
+                padding-left: 2%;
+            }
+
+            @media(max-width:767px) {
+                padding-left: 0%;
+                padding-right: 0px;
+            }
+
+            h5 {
+                font-family: $pr;
+
+                font-size: 14px;
+                line-height: 22px;
+                /* identical to box height, or 37px */
+
+                letter-spacing: 0.06em;
+
+                color: #208C84;
+            }
+
+            h1 {
+                margin-bottom: 10px;
+
+                span {
+                    color: #208C84;
+                    line-height: 50px;
+
+                    @media(max-width:767px) {
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+
+                }
+            }
+
+
+        }
+    }
+
+    .owl-dots .owl-dot span {
+        width: 10px;
+        height: 10px;
+        margin: 5px 5px;
+        background: #A6DBCC;
+        display: block;
+        -webkit-backface-visibility: visible;
+        transition: opacity .2s ease;
+        border-radius: 30px;
+    }
+
+    .owl-dots .owl-dot.active span,
+    .owl-theme .owl-dots .owl-dot:hover span {
+        background:
+            #3DC9A1;
+    }
+}
+
+// reused////////////@at-root
+
+.contact-now-btn {
+
+    .contact-now-button {
+        margin-top: 19px;
+        height: 45px;
+        padding: 0px 65px 0px 28px;
+        background: #208c84;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        color: white;
+        position: relative;
+        display: flex;
+        align-items: center;
+        border-radius: 0px;
+
+        @media(max-width:767px) {
+            margin-bottom: 30px;
+
+        }
+
+        span {
+            background: #3DC9A1;
+            height: 45px;
+            width: 50px;
+            position: absolute;
+            right: -1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                margin-top: 0px;
+                width: 20px;
+                height: 20px;
+                padding: 16px 5pxpx 16px 5px;
+            }
+        }
+
+    }
+
+}
+
+.owl-dots {
+
+    text-align: center;
+    margin-top: -38px;
+    position: relative;
+
+    @media(max-width:767px) {
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+
+// icomoon icon
+.letterspace-title {
+    font-family: $pr;
+
+    font-size: 16px;
+    line-height: 167.5%;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #3DC9A1;
+
+
+
+}
+
+// .fix-heights{
+//     height: 79px;
+// }
+
+

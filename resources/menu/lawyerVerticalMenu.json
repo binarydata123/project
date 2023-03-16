@@ -1,0 +1,48 @@
+{
+    "menu": [
+      {
+        "url": "lawyer/dashboard",
+        "name": "Dashboard",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "dashboard"
+      },
+      {
+        "url": "lawyer/scheduled-events",
+        "name": "Scheduled Events",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "scheduled-events"
+      },
+      {
+        "url": "lawyer/chat-online-requests",
+        "name": "Chat Online Requests",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "chat-online-request"
+      },
+      {
+        "url": "lawyer/services",
+        "name": "Services",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "services"
+      },
+      {
+        "url": "lawyer/community",
+        "name": "Lawyer Community",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "community",
+        "target":true
+      },
+      {
+        "url": "lawyer/question-answer/list",
+        "name": "Question & Answer",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "question-answer"
+      },
+      {
+        "url": "lawyer/articles",
+        "name": "Lawyer Articles",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "lawyer-articles"
+      }
+    ]
+  }
+  

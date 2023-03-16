@@ -1,0 +1,28 @@
+{
+    "poppins": {
+        "200": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/poppins_200_0eec96f30d9c1b73637ec638fbe92403",
+        "300": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/poppins_300_4a08cccbc2911e3077321a0298f4e093",
+        "normal": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/poppins_normal_442dffd12abdf0df26c14405d3f49bfa",
+        "600": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/poppins_600_272b14b77a21dc5827f4570eff556c8f",
+        "bold": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/poppins_bold_2d1c4b360c3ac297e98fc2cfd808a2cc",
+        "800": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/poppins_800_313634739c16b7523b76f32223648e5b",
+        "900": "poppins_900_b9e01d75bf95631c5ecf3bcf2a96e6b3"
+    },
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_ba95da0e0ed26cb50aa2f3bfa6de4224"
+    },
+    "font awesome 6 free": {
+        "normal": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/font_awesome_6_free_normal_d14e05f732166b536c9f3e3c128da324",
+        "900": "font_awesome_6_free_900_fc6b653d35d5d856773a176618f15b8a"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_ba95da0e0ed26cb50aa2f3bfa6de4224"
+    },
+    "font awesome 5 free": {
+        "900": "\/Users\/shammas\/Documents\/Projects\/laravel\/sneat-bootstrap-html-laravel-free-admin-template\/storage\/fonts\/font_awesome_5_free_900_fc6b653d35d5d856773a176618f15b8a",
+        "normal": "font_awesome_5_free_normal_d14e05f732166b536c9f3e3c128da324"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_e1a313ca83905f53a32ee29693775520"
+    }
+}

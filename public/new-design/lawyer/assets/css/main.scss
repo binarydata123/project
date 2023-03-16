@@ -1,0 +1,68 @@
+/*-----------------------------------------------------------------------------------
+
+ Project Name: New Project
+ Project URI: http://
+ Description: 
+ Author: 
+ Author URI: 
+ Version: 1.0.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+
+ == Table Of Content
+
+ 00 Imports
+ 01 Basics
+ 
+
+---------------------------------------------------------------- */
+
+/* 00. Imports */
+@import 'variables',
+'mixins',
+'_reset',
+'_normalize',
+'_footer',
+'_navbar',
+'_home',
+'_login-modal',
+'_question-answer';
+
+
+
+/* Start Basics  */
+* {
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    word-wrap: break-word;
+}
+
+body {
+    color:#191919;
+    font-family: $pr;
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+span,
+a,
+a:hover {
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Start Basics ends */
+
+
+
+
+
+/* All Styles ends Here */

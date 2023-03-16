@@ -1,0 +1,1 @@
+<span>{{$commentsCount}} comments</span>
