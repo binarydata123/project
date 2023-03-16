@@ -1,0 +1,323 @@
+.slot-title {
+    font-family: "Poppins-Medium";
+}
+
+.day-slot {
+    color: #156075!important;
+}
+
+.day-slot.active {
+    background-color: #E0EDF1!important;
+}
+
+.slot-submit-btn {
+    background-color: #208C84;
+}
+
+.slot-status-section {
+    margin-bottom: 3%;
+}
+
+.form-check-input:checked {
+    background-color: #1f8c84;
+    border-color: #1f8c84;
+}
+
+.start-end {
+    border-radius: 10px;
+}
+
+.plus-btn {
+    border-radius: 10px;
+    border: none;
+    color: #156075;
+    background: #85BACA;
+}
+
+.minus-btn {
+    border-radius: 10px;
+    border: none;
+    color: #156075;
+    background: #F4FEFA;
+}
+
+.ui-timepicker-list li {
+    width: 100px!important;
+    padding: 9px 0 6px 15px!important;
+    font-size: medium!important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color:#156075;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .slot-service-input {
+        width: 78%!important;
+    }
+
+    .slick-next {
+        right: 1px!important;
+    }
+
+    .slot-service-card-body {
+        width: 128%!important;
+    }
+
+    .slot-service-card {
+        margin-left: -8%!important;
+    }
+
+    .slick-track {
+        font-size: 11px!important;
+    }
+
+    .slot-service-btn {
+        float: unset!important;
+        margin-left: 55%!important;
+    }
+
+    .slot-note-section {
+        margin-left: -6%!important;
+    }
+
+    .slot-calendar-img-section {
+        margin-left: -9%!important;
+    }
+
+    .time-one {
+        margin-left: -5%!important;
+        width: 52.333333%!important;
+    }
+
+    .time-devider {
+        margin-left: -27%!important;
+    }
+
+    .time-two {
+        width: 49.333333%;
+        margin-left: -5%;
+    }
+
+    .start-end {
+        font-size: 12px!important;
+        width: 53%!important;
+    }
+
+    .start-end-amt {
+        font-size: 12px!important;
+        width: 63%!important;
+    }
+
+    .amount {
+        margin-left: -27%!important;
+    }
+
+    .plus-btn {
+        width: 32px!important;
+        height: 32px!important;
+    }
+
+    .minus-btn {
+        width: 32px!important;
+        height: 32px!important;
+        border: 0.75px solid #85BACA;
+    }
+
+    .slot-plus-btn {
+        margin-left: -14%!important;
+    }
+
+    .slot-main {
+        width: 118%!important;
+    }
+
+    .slot-container {
+        margin-bottom: 30%!important;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    
+}
+
+
+@media only screen and (min-width: 768px) {
+    .slot-service-card-body {
+        width: 99%!important;
+    }
+
+    .slot-form-group {
+        margin-left: auto;
+    }
+
+    .slot-service-card {
+        margin-left: -5%!important;
+    }
+
+    .slot-service-btn {
+        float: unset!important;
+        margin-left: 55%!important;
+    }
+
+    .slot-status {
+        margin-top: unset!important;
+    }
+
+
+    .slot-note-section {
+        margin-left: -6%!important;
+    }
+
+    .slot-calendar-img-section {
+        margin-left: -9%!important;
+    }
+
+    .time-one {
+        margin-left: -5%!important;
+        width: 52.333333%!important;
+    }
+
+    .time-devider {
+        margin-left: -27%!important;
+    }
+
+    .time-two {
+        width: 49.333333%;
+        margin-left: -5%;
+    }
+
+    .start-end {
+        font-size: 12px!important;
+        width: 53%!important;
+    }
+
+    .start-end-amt {
+        font-size: 12px!important;
+        width: 63%!important;
+    }
+
+    .amount {
+        margin-left: -25%!important;
+    }
+
+    .plus-btn {
+        width: 32px!important;
+        height: 32px!important;
+    }
+
+    .minus-btn {
+        width: 32px!important;
+        height: 32px!important;
+        border: 0.75px solid #85BACA;
+    }
+
+    .slot-plus-btn {
+        margin-left: -9%!important;
+    }
+
+    .slot-main {
+        width: 118%!important;
+        margin-left: -1%!important;
+    }
+
+    .slot-service-card-body {
+        width: 100%!important;
+    }
+
+    .slot-container {
+        margin-bottom: 50%!important;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .slot-note-section {
+        margin-left: -3%!important;
+    }
+
+    .slot-calendar-img-section {
+        margin-left: -5%!important;
+        width: 11.666667%!important;
+    }
+
+    .slot-container {
+        margin-bottom: 0%!important;
+    }
+
+    .time-devider {
+        margin-left: -26%!important;
+    }
+    
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .slot-desktop-view {
+        display: flex!important;
+    }
+
+    .calendar-img {
+        width: 40px!important;
+        height: 40px!important;
+    }
+
+    .time-devider {
+        align-self: baseline;
+        display: inherit;
+        margin-left: -32%!important;
+    }
+
+    .time-one {
+        margin-left: 3%!important;
+    }
+
+    .plus-btn {
+        width: 40px!important;
+        height: 35px!important;
+    }
+
+    .minus-btn {
+        width: 40px!important;
+        height: 35px!important;
+        border: 0.75px solid #85BACA;
+    }
+
+    .time-two {
+        margin-left: -6%!important;
+    }
+
+    .note-section {
+        font-size: 12px!important;
+    }
+
+    .slot-calendar-img-section {
+        margin-left: -2%!important;
+        width: 4.666667%!important;
+    }
+
+    .start-end {
+        font-size: 16px!important;
+        width: 40%!important;
+    }
+
+    .start-end-amt {
+        font-size: 16px!important;
+        width: 79%!important;
+    }
+
+    .amount {
+        margin-left: -28%!important;
+    }
+
+    .slot-plus-btn {
+        width: 38%!important;
+        margin-left: -5%!important;
+    }
+
+    .slot-service-btn {
+        float: right!important;
+    }
+}

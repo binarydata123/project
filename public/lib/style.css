@@ -1,0 +1,300 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?z2qv23');
+  src: url('fonts/icomoon.eot?z2qv23#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z2qv23') format('truetype'),
+    url('fonts/icomoon.woff?z2qv23') format('woff'),
+    url('fonts/icomoon.svg?z2qv23#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Vector-2:before {
+  content: "\e900";
+}
+
+.icon-Vector-3:before {
+  content: "\e901";
+}
+
+.icon-Vector-6:before {
+  content: "\e902";
+}
+
+.icon-Group-3:before {
+  content: "\e909";
+}
+
+.icon-Vector-5:before {
+  content: "\e903";
+}
+
+.icon-Vector-7:before {
+  content: "\e904";
+}
+
+.icon-Vector-1:before {
+  content: "\e905";
+  color: black;
+}
+
+.icon-Vector-8:before {
+  content: "\e906";
+}
+
+.icon-Group-2:before {
+  content: "\e90a";
+}
+
+.icon-Vector-4:before {
+  content: "\e907";
+}
+
+.icon-Vector-9:before {
+  content: "\e908";
+}
+
+.icon-Group-6:before {
+  content: "\e900";
+}
+
+.icon-Vector-10:before {
+  content: "\e900";
+}
+
+.icon-Group-1:before {
+  content: "\e901";
+}
+
+
+/* Dashboard styles */
+.card-darkgreen {
+  background-color: #C2DDE4;
+}
+
+.darkgreen-text {
+  color: #156075;
+}
+
+.card-lightgreen {
+  background-color: #C6EEE2;
+  color: #208C84;
+}
+
+.lightgreen-text {
+  color: #208C84;
+}
+
+.card-yellow {
+  background-color: #EDEEC6;
+}
+
+.float-right {
+  float: right;
+}
+
+.font-Poppins {
+  font-family: 'Poppins';
+}
+
+
+body {
+  font-family: 'Poppins-Regular';
+}
+
+.box-card-shadow {
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.question-card {
+  background-color: #208C84;
+}
+
+.card-border-radius{
+  border-radius: 1rem;
+}
+
+.todo {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.urgent {
+  background-image: url('./../assets/image/dashboard/RectangleUrgent.png');
+}
+
+.message {
+  background-image: url('./../assets/image/dashboard/RectangleMessage.png');
+}
+
+.email {
+  background-image: url('./../assets/image/dashboard/RectangleEmail.png');
+}
+
+.meeting {
+  background-image: url('./../assets/image/dashboard/RectangleMeeting.png');
+}
+
+.copy {
+  background-image: url('./../assets/image/dashboard/RectangleCopy.png');
+}
+
+.mySlides {
+  display: none
+}
+
+.w3-left,
+.w3-right,
+.w3-badge {
+  cursor: pointer
+}
+
+.w3-badge {
+  height: 13px;
+  width: 13px;
+  padding: 0
+}
+
+.w3-transparent,
+.w3-hover-none:hover {
+  background-color: transparent !important;
+}
+
+.w3-border {
+  border: 1px solid #ccc !important;
+}
+
+.w3-badge {
+  border-radius: 50%;
+}
+
+.w3-white,
+.w3-hover-white:hover {
+  color: #000 !important;
+  background-color: #D9D9D9 !important;
+}
+
+.slider-right {
+  position: absolute;
+  top: 36%;
+  display: flex;
+  flex-direction: column;
+  right: 14px;
+}
+
+.image-slide {
+  width: 225px;
+  height: 225px;
+}
+
+.editArticle {
+  display: flex;
+  align-items: end;
+  padding-bottom: 26px;
+  height: 100px;
+}
+
+.card-profile {
+  width: calc(100% - 120px);
+  padding: 10px;
+}
+.card_select:hover {
+  background-color: #E8F8F2;
+}
+
+.chat-action {
+  text-align: end;
+  width: 60px;
+}
+
+.notification{
+  text-align: end;
+  width: 50%;
+}
+
+.chat-action img {
+  width: 20px;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}

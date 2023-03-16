@@ -1,0 +1,311 @@
+.custom-modal-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    .custom-modal-btn {
+        margin-left: 0px;
+    }
+}
+
+.login-btn {
+
+    font-family: $pr;
+
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #191919;
+    background: #3dc9a1;
+    padding: 2px 30px;
+    border-radius: 0px;
+    &:hover{
+        background: #3dc9a1;
+    }
+}
+
+.register-btn {
+    margin-left: 6px;
+    font-family: $pr;
+
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #191919;
+    background: #c6eee2;
+    padding: 2px 20px;
+    border-radius: 0px;
+    &:hover{
+        background: #c6eee2;
+    }
+
+
+}
+
+.login-modal {
+
+    .login-modal-body {
+        background: white;
+        padding: 20px;
+
+        @media(max-width:767px) {
+            padding: 0px;
+        }
+
+        .thebest-legal-card-wraper {
+            background: #C6EEE2;
+            border-radius: 10px;
+            padding: 20px 0px 20px 20px;
+            display: flex;
+            height: 100%;
+
+            .thebest-legal-card {
+
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                position: relative;
+                padding-top: 47%;
+
+                @media(max-width:991px) {
+                    padding-top: 0px;
+                }
+
+                @media(max-width:767px) {
+                    padding-right: 20px;
+                    padding-bottom: 20px;
+
+                }
+
+                .legal-card-small-img {
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 60px;
+                    height: 60px;
+
+                    @media(max-width:767px) {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+
+                h1 {
+                    font-family: $pb;
+
+
+                    font-size: 35px;
+                    line-height: 48px;
+
+                    color: #208C84;
+
+                    @media(max-width:991px) {
+                        font-size: 30px;
+                        line-height: 36px;
+                        padding-top: 85px;
+                        margin-bottom: 15px;
+                    }
+
+                    @media(max-width:991px) {
+                        font-size: 24px;
+                        line-height: 36px;
+                    }
+
+                }
+
+                p {
+                    font-size: 14px;
+                }
+                button{
+                    color: #fff;
+                    background: #208c84;
+                    padding: 10px 10px;
+                    border-radius: 0px;
+                    margin-top: 20px;
+                    width: 200px;
+                    @media(max-width:991px){
+                        width: auto;
+                    }
+                    @media(max-width:767px){
+                        width: 200px;
+                    }
+                
+                }
+            }
+
+     
+
+            .thebest-legal-card-img {}
+        }
+        .register-lawyer-card{
+            background: #C2DDE4;
+        
+           
+            .register-lawyer {
+                     
+                h1 {
+                    color: #156075;
+                }
+        
+                p {
+                    color: #156075;
+                    display: flex;
+                    flex: 1;
+                }
+            }
+        }
+                .register-user-card{
+                    background: #EDEEC6;
+                    height: 100%;
+                    @media(max-width:991px){
+                        margin-top: 20px;
+                    }
+                    .register-user {
+                        h1 {
+                            color: #3F3309;
+                        }
+        
+                        p {
+                            color: #3F3309;
+                        }
+                    }
+                }
+
+    }
+
+    .find-lawyer-modal-body {
+        .thebest-legal-card-wraper {
+            background: #EDEEC6;
+            display: flex;
+            
+            .thebest-legal-card {
+                background: #EDEEC6;
+                h1 {
+                    color: #3F3309;
+                }
+
+                p {
+                    color: #3F3309;
+                }
+            }
+
+        }
+    }
+
+    .login-card {
+        @media(max-width:991px) {
+            margin-top: 15px;
+        }
+
+        h1 {
+            font-family: $pm;
+
+            font-size: 35px;
+            line-height: 48px;
+            /* identical to box height */
+
+            text-align: center;
+
+            color: #191919;
+
+            @media(max-width:991px) {
+                font-size: 30px;
+            }
+
+            @media(max-width:991px) {
+                font-size: 24px;
+                line-height: 36px;
+            }
+
+
+        }
+
+        p {
+            margin-bottom: 30px;
+            text-align: center;
+            font-family: $pr;
+
+            font-size: 13px;
+            line-height: 30px;
+            /* identical to box height, or 200% */
+
+
+            color: #191919;
+
+            a {
+                font-family: $pm;
+                margin-left: 5px;
+
+                font-size: 13px;
+                color: #3DC9A1;
+            }
+        }
+
+        .login-card-form {
+
+            label,
+            input {
+                padding-top: 5px;
+                font-family: $pr;
+
+                font-size: 13px;
+                line-height: 30px;
+                margin-bottom: 0px;
+                /* identical to box height, or 188% */
+
+
+                color: #191919;
+
+            }
+
+            input {
+                border-top: 0px;
+                border-radius: 0;
+                border: none;
+                border-bottom: 1px solid #191919;
+            }
+
+            .forgot-password {
+                text-align: right;
+                margin-top: 10px;
+
+                button {
+                    font-family: $pr;
+                    font-size: 13px;
+                    color: #3DC9A1;
+                }
+
+            }
+
+            .form-login-btn {
+                text-align: center;
+                margin-top: 15px;
+
+                button {
+                    width: 200px;
+                    height: 43px;
+
+                    background: #208C84;
+                    font-family: $pr;
+                    border-radius: 0px;
+
+                    font-size: 13px;
+
+                    /* identical to box height, or 175% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+
+                    @media(max-width:991px) {
+                        width: auto;
+                        padding: 0px 50px;
+                    }
+
+                }
+            }
+        }
+    }
+}

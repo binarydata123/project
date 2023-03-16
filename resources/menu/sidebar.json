@@ -1,0 +1,96 @@
+{
+    "menu": [
+      {
+        "url": "admin/dashboard",
+        "name": "Dashboard",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "dashboard"
+      },
+      {
+        "url": "/admin/arbitration-area",
+        "name": "Arbitration Area",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "arbitration-area"
+      },
+      {
+        "url": "/admin/lawyers",
+        "name": "Lawyers",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "lawyers"
+      },
+      {
+        "url": "/admin/forums/0",
+        "name": "Forums",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "forums"
+      },
+      {
+        "url": "/admin/testimonials",
+        "name": "Testimonials",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "testimonials"
+      },
+      {
+        "url": "/admin/contact-us",
+        "name": "Contact Us",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "contact-us"
+      },
+      {
+        "url": "/admin/services",
+        "name": "Services",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "services"
+      },
+      {
+        "url": "/admin/qa/ratings",
+        "name": "QA Ratings",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "qa-ratings"
+      },
+      {
+        "url": "/admin/callback/requests",
+        "name": "Callback Requests",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "callback-requests"
+      },
+      {
+        "url": "/admin/chat/requests",
+        "name": "Chat Requests",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "chat-requests"
+      },
+      {
+        "url": "/admin/categories",
+        "name": "Categories",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "categories"
+      },
+      {
+        "url": "/admin/blogs-articles",
+        "name": "Blogs & Articles",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "blogs-articles"
+      },
+      {
+        "url": "/admin/hired",
+        "name": "Hired Lawyers",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "hired"
+      },
+      {
+        "url": "/admin/lawyer-slots",
+        "name": "Lawyer Slots",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "lawyer-slots"
+      },
+      {
+        "url": "/admin/languages",
+        "name": "Languages",
+        "icon": "menu-icon tf-icons bx bx-home-circle",
+        "slug": "languages"
+      }
+      
+    ]
+  }
+  
