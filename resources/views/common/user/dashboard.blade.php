@@ -176,7 +176,7 @@
                     </div>
                 </div>
             @endforeach
-            <p class="text-center Reques mt-3"><a href="{{route('online-chat.requests')}}">View All Chat Requests</a></p>
+            <p class="text-center Reques mt-3"><a href="#">View All Chat Requests</a></p>
           </div>
         </div>
       </div>

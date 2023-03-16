@@ -67,7 +67,7 @@
             <li><a href="{{route('lawyer.dashboard')}}"><i class="fa-solid fa-landmark"></i>Dashboard</a></li>
             <!-- <li><a href="#"><i class="fa-solid fa-users"></i>My Activity</a></li> -->
             <li><a href="{{route('lawyer.consultation-requests')}}"><i class="fa-solid fa-question"></i> Consultation Requests</a></li>
-            <li><a href="{{route('lawyer.online-chat-requests')}}"><i class="fa-solid fa-star"></i> Chat Online Requests</a></li>
+            <li><a href="#"><i class="fa-solid fa-star"></i> Chat Online Requests</a></li>
             <li><a href="{{route('lawyer.services')}}"><i class="fa-solid fa-bag-shopping"></i>Services</a></li>
             <li><a href="{{route('lawyer.community')}}"><i class="fa-solid fa-user"></i> Lawyer Community</a></li>
             <li><a href="{{route('lawyer.qa.list')}}"><i class="fa-solid fa-scale-balanced"></i>Question & Answer</a></li>

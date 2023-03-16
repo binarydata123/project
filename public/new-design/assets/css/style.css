@@ -92,9 +92,9 @@ h1.font-64 {
 }
 
 .btn {
-    padding: 11px 19px;
+    padding: 6px 10px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 35px;
     color: #fff;
 }
@@ -244,7 +244,7 @@ span.counter-value {
 
 p.font-24 {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 40.2px;
     color: #191919;
 }
@@ -317,7 +317,7 @@ p.font-15 {
     border: 1px solid #208C84;
     border-radius: 15.5px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 22px;
     color: #191919;
     padding: 4px 14px;
@@ -520,13 +520,13 @@ input.form-control.left-bordr {
 
 button.btn.btn-submit {
     background: #208C84;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: center;
     color: #fff;
-    width: 178px;
+    width: 140px;
     border-radius: 0px;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -697,11 +697,12 @@ button.btn.btn-submit {
     padding: 20px;
     height: 569px;
     transition: 0.6s;
+    width: 90%;
 }
 
 .steps:hover {
     transform: scale(0.9);
-    -webkit-transform: scale(0.9);
+    -webkit-transform:scale(0.9);
     -moz-transform: scale(0.9);
     -ms-transform: scale(0.9);
     -o-transform: scale(0.9);
@@ -777,6 +778,7 @@ a.see-more:hover {
     height: 600px;
     background-color: #C2DDE4;
     z-index: -1;
+    left: 0;
 }
 
 .s-for h5 {
@@ -1420,7 +1422,7 @@ a.circle-right i {
 
 .why-b.Keep {
     background: #fff;
-    padding: 30px;
+    padding: 0px 30px;
 }
 
 .bg-E5EAED {
@@ -3213,7 +3215,7 @@ i.crown-p {
 
 @media(min-width:1366px) and (max-width:1600px) {
     .add-450 h1 {
-        font-size: 26px !important;
+        font-size: 20px !important;
     }
 
     div#profile p.name-uaser {
@@ -3357,7 +3359,7 @@ i.crown-p {
     }
 
     .law-box h5 {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
@@ -3528,10 +3530,10 @@ i.crown-p {
 }
 
 .submit-btn {
-    width: 177px;
-    height: 68px;
+    width: 140px;
+    height: 50px;
     background: #208C84;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 35px;
     color: #FFFFFF;
     border: none;
@@ -3703,7 +3705,7 @@ i.crown-p {
 
 @media (min-width:1200px) {
     .lawyers-part ul.star-part-2 li {
-        font-size: 16px;
+        font-size: 12px;
     }
 
 
@@ -3784,7 +3786,9 @@ i.crown-p {
         padding: 0 2px;
     }
 
-
+div#profile .legal-1 img { 
+    border-radius: 10px; 
+}
 
 }
 
@@ -3984,7 +3988,7 @@ ul.post-1 li {
 
 ul.post-1 li a {
     font-weight: 400;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 30px;
     color: #191919;
     text-decoration: none;
@@ -4231,7 +4235,7 @@ ul.step-ul li a {
     font-weight: 400;
     font-size: 20px;
     line-height: 25px;
-    padding: 25px 20px;
+    padding: 25px 14px;
     display: block;
     text-decoration: none;
 }
@@ -4344,14 +4348,14 @@ a.next-step-btn.back {
 }
 
 #summary-law h5 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     color: #191919;
     margin-left: -15px;
 }
 
 #summary-law span.rev-35 {
-    font-size: 11px;
+    font-size: 10px;
     line-height: 16px;
 }
 
@@ -4479,15 +4483,15 @@ a.next-step-btn.rightbtn {
 .btnbynew {
     background-color: #156075;
     color: #fff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: center;
-    width: 174px;
+    width: 130px;
     display: block;
     float: right;
-    padding: 10px 20px;
+    padding: 6px 0px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -5918,12 +5922,12 @@ div#border-full {
 }
 
 #modal-login ul.nav.nav-pills button {
-    padding: 10px 25px;
+    padding: 6px 12px;
     border-radius: 0;
     background: #fff;
     margin-right: 10px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
     text-align: center;
     color: #191919;
@@ -5939,7 +5943,7 @@ div#border-full {
     margin: 0;
     background: #fff;
     opacity: 1;
-    padding: 15px 15px;
+    padding: 13px 10px;
     line-height: 1;
 }
 
@@ -5965,7 +5969,7 @@ div#staticBackdrop.bg-4d4d4d {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 99999;
+    z-index: 999 ;
     width: -webkit-fill-available;
 }
 
@@ -6289,7 +6293,8 @@ p.font-fee {
 span.aed-0 {
     border: 0.75px solid #85BACA;
     border-radius: 15px;
-    padding: 10px 15px 10px 40px;
+    font-size: 14px;
+    padding: 6px 15px 6px 30px;
 }
 
 .form-popup-des button.btn-lgn {
@@ -6414,8 +6419,8 @@ ul.your-rating li p {
 
     .btn-border {
         font-size: 16px;
-        width: 165px;
-        height: 45px;
+        width: 130px;
+        height: 38px;
     }
 
     img.popup-prem {
@@ -6474,7 +6479,7 @@ ul.your-rating li p {
 }
 
 .form-control.class-height-smae::placeholder {
-    padding: 10px;
+    padding: 10px 0px 0px 0px;
     position: absolute;
 }
 
@@ -6522,10 +6527,11 @@ i.fa-solid.fa-eye.eye-pri {
         display: none;
     }
 
-    div#mySidenav {
-        background: #fff;
-        width: 100% !important;
-    }
+   div#mySidenav {
+    background: #fff;
+    width: 100% !important;
+    max-width: 400px;
+}
 
     a.navbar-brand.menu-a {
         color: #fff;
@@ -6647,7 +6653,9 @@ i.fa-solid.fa-eye.eye-pri {
         padding: 0 0px;
     }
 
-
+div#profile .legal-1 img {
+    border-radius: 10px;
+}
 
 
 }
@@ -6879,9 +6887,6 @@ main.bg-color.bg-f4fefa {
 #coverpading{
     padding: 50px 0px  0px 0px;
 }
-section#cover-padding {
-    padding: 0px 40px;
-}
 section.m-sp-same {
     padding: 0px 40px 100px 40px;
 }
@@ -6900,9 +6905,6 @@ div#myTabContent {
 {
     section.m-sp-same {
         padding: 0px 16px 100px 10px;
-    }
-    section#cover-padding {
-        padding: 0px 10px;
     }
     #twobtn a+a {
          margin-left:0px;
@@ -6966,9 +6968,6 @@ ul#myTab li i.color-smae {
  #offcanvasScrolling {
     width: 300px;
 }
-.practice-area {
-    padding: 20px !important;
-}
 a.seebtn.bg-change {
     position: relative;
     top: -10px;
@@ -6978,7 +6977,7 @@ a.seebtn.bg-change {
 }
 img.off-logo {
     position: relative;
-    left: 10px;
+    left: 0px;
 }
 
 #summary-law i.crown-p { 
@@ -7020,8 +7019,8 @@ ul.list-icon-text li a img {
 }
 .btn-border { 
     font-size: 16px; 
-    width: 150px;
-    height: 50px; 
+    width: 130px;
+    height: 38px; 
 }
 .user-online-g 
  .user-online-g.text-left {
@@ -7037,21 +7036,13 @@ ul.list-icon-text li a img {
 #summary-law p.aed { 
     margin-top: 2px;
 }
-
-
+a.next-step-btn {
+    font-size: 16px;
+    padding: 9px 10px;
+    line-height: 24px !important;
 }
 
-
-
-@media (max-width:981px) {
-.practice-area {
-    padding: 50px 0 !important;
 }
-
-
- 
-}
-
 
 @media (max-width:767px) {
 .align-items-center .aed-class {
@@ -7065,14 +7056,7 @@ a.seebtn.bg-change {
 
 }
 
-@media(min-width:1200px) {
-    .lawyers-part {
-        padding: 20px !important;
-    }
-    
-    }
 
-    
 .form-part.form-e input {
     padding: 20px 13px;
     font-size: 20px;
@@ -7133,3 +7117,185 @@ button.btn-lgn.Send-email-btn {
 }
 
 }
+
+
+/**/
+ .services-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #156075;
+}
+.sp-page {
+    padding: 25px;
+}
+
+@media (min-width:1600px) {
+div#myTabContent div#profile p.name-uaser {
+    font-size: 22px !important;
+}
+.crown-p.ccrr {
+    bottom: 16px !important;
+    right: 20px;
+}
+
+
+
+}
+
+@media (max-width:1500px) {
+#test-design h5.mon-txt-cvr {
+    line-height: 1.2;
+}
+#test-design h6.mon-cvr {
+    font-size: 10px;
+}
+#test-design .service-description p, li { 
+    font-size: 14px; 
+}
+#test-design p.font-15 {
+    font-size: 9px;
+}
+.crown-p.ccrr {
+    bottom: 11px !important;
+    right: 9px;
+}
+i.crown-p { 
+    bottom: 3px;
+    font-size: 27px;
+    right: 10px;
+}
+.single-box h5.content-single {
+    font-size: 29px; 
+    line-height: 40px;
+}
+#box-right-lowyar .rev-35 { 
+    font-size: 11px;
+    line-height: 22px; 
+}
+#box-right-lowyar i.crown-p { 
+    bottom: 3px;
+    font-size: 17px;
+    right: 12px;
+}
+.cards { 
+    padding: 8px; 
+}
+ .law-box p { 
+    font-size: 10px !important; 
+}
+
+
+
+}
+
+@media (max-width:1090px) {
+#box-right-lowyar .rev-35 {
+    font-size: 9px; 
+}    
+img.off-logo { 
+    max-width: 275px;
+}
+p.close-top { 
+    top: 20px; 
+}
+
+
+
+
+}
+
+@media (max-width:981px) {
+#offcanvasScrolling {
+    width: 350px;
+}
+.single-box h5.content-single {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+}
+
+@media (max-width:767px) {
+.sp-page {
+    padding: 4px;
+}
+
+}
+
+@media (max-width:390px) {
+.single-box h5.content-single {
+    font-size: 20px;
+    line-height: 1.2;
+}
+#box-right-lowyar .rev-35 {
+    font-size: 8px;
+}
+}
+
+
+
+/* 12-03-2023 */
+.p-80 {
+    padding: 80px 80px 0px;
+}
+section.m-sp-same.p-80 {
+    padding: 50px 80px;
+}
+.comman-class-padding {
+    background: #71b2c382;
+}
+.w-tdh-commam select.department.class-width-same {
+    width: 140px !important;
+}
+img.off-logo.class-logo {
+    left: 12px;
+}
+a.next-step-btn.back {
+    padding: 6px;
+}
+a.next-step-btn {
+    padding: 6px 6px;
+}
+
+@media(max-width:1366px){
+    h1.moni {
+        font-size: 40px !important;
+    }
+    .question-text h3 {
+        font-size: 20px !important;
+    }
+}
+@media(max-width:991px){
+    .p-80 {
+        padding: 15px 15px;
+    }
+    .searchfild .input-group {
+        margin-top: 60px;
+    }
+    .w-tdh-commam select.department.class-width-same {
+        width: 100px !important;
+    }
+    h1.moni {
+        font-size: 40px !important;
+        line-height: 60px;
+    }
+    .seebtn {
+        padding: 15px 15px !important;
+    }
+    h1.moni {
+        padding-top: 100px !important;
+    }
+    #heire .question-text {
+        padding: 10px 10px 25px 10px !important;
+    }
+    .btnbynew {
+        font-size: 16px;
+        padding: 2px 15px;
+        width: unset;
+    }
+    section.m-sp-same.p-80 {
+        padding: 30px 15px;
+    }
+}
+

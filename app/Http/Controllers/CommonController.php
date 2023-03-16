@@ -22,7 +22,6 @@ use App\Models\Testimonial;
 use App\Models\LawyerConsultation;
 use App\Models\Services;
 use App\Models\User;
-use App\Traits\SendMailTrait;
 use Illuminate\Http\Request;
 use Mail; 
 use Mailjet\Resources;
@@ -31,9 +30,6 @@ use Illuminate\Support\Facades\Validator;
 
 class CommonController extends Controller
 {
-
-    use SendMailTrait;
-
     public function howItWorks() {
         $testimonials = Testimonial::whereApproved(1)->latest()->take(3)->get();        
         // return view('common.how-it-works', compact('testimonials'));
@@ -220,7 +216,7 @@ class CommonController extends Controller
     }
 
     public function onlineChatRequests() {
-        $chatRequests = ChatOnline::whereUserId(auth()->user()->id)->paginate(10);
+        $chatRequests = ChatOnline::whereUserId(auth()->user()->id)->get();
         return view('common.chat-requests', compact('chatRequests'));
     }
 
@@ -608,17 +604,12 @@ class CommonController extends Controller
             'description'          =>  ['required'],
         ]);
         // dd($request->lawyerId);
-        $chatRequest = ChatOnline::create([
+        ChatOnline::create([
             'lawyer_id' => $request->lawyerId,
             'user_id'   => auth()->user()->id,
             'comment'   => $request->description,
             'any'       => 0,
         ]);
-
-        $html = View::make('emails.chat-request-to-lawyer', ['lawyerName' => $chatRequest->lawyer->user->name, 
-                                                                'userName' => auth()->user()->name,
-                                                                'area' => $chatRequest->lawyer->arbitration->area])->render();
-        $this->sendEmail($request->email, 'New Chat Request from '.$userName.' on Connect Legal', $html);
 
         Alert::success('Success', 'Your chat request has been submitted successfully');
         return redirect()->back();

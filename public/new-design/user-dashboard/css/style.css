@@ -1408,6 +1408,13 @@ ul.menu-left li a {
     color: #191919;
     text-decoration: none;
 }
+ul.menu-left li a.active-nav {
+    background: #E8F8F2;
+    border-left: solid 6px #208C84;
+    color: #208C84 !important;
+    font-weight: 600;
+    text-decoration: none;
+}
 
 ul.menu-left li a i {
     margin-right: 10px;
@@ -2596,11 +2603,11 @@ p {
 }
 
 .publish_post {
-    width: 354px;
-    padding: 20px;
+    width: 250px;
+    padding: 8px;
     float: right;
     background: #208C84;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
@@ -3228,9 +3235,9 @@ ul.note-why li {
 }
 
 .plus-icn-servie h1 {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
     color: #156075;
@@ -4189,26 +4196,6 @@ button:focus {
     bottom: 40px;
 }
 
-.publish_post {
-    width: 354px;
-    padding: 20px;
-    float: right;
-    background: #208C84;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 35px;
-    letter-spacing: 0em;
-    text-align: center;
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    text-decoration: none;
-    color: #fff;
-}
-
-.publish_post:hover {
-    color: #fff;
-}
 
 .botton-class img {
     width: 22px;
@@ -4793,7 +4780,14 @@ h4.book-text.font-samll {
     .chat-slots-left div {
         font-size: 14px;
     }
+    .booked.bg-EDEEC6.height-same {
+
+        background: #3DC9A1;
+        margin-top: 24px;
+        padding: 55px 0px 10px 40px;
+    }
 }
+
 
 @media(max-width:1366px) {
     .same-flex li {
@@ -4829,7 +4823,7 @@ h4.book-text.font-samll {
         line-height: 18px;
     }
     p.time-r {
-        font-size: 12px;
+        font-size: 10px;
     }
     .d-flex2 img {
         height: 20px;
@@ -5628,15 +5622,6 @@ a.btn-close.bg-des {
 
 
 
-@media(min-width:1700px) {
-    .booked.bg-EDEEC6.height-same {
-        height: 85%; 
-    }
-
-
-}
-
-
 @media(max-width:991px) {
 ul.list-group { 
     max-width: 210px !important;
@@ -5816,4 +5801,26 @@ button.collapse {
     background-color: #1A7792;
     border-radius: 15px;
     padding: 10px;
+}
+i.fa-solid.fa-ellipsis-vertical.text-white {
+    position: absolute;
+    top: 21px;
+    right: -33px;
+}
+.moreoption .dropdown-menu[data-bs-popper] {
+    right: -61px;
+    top: 60px;
+}
+.names{
+    padding: 0 !important;
+}
+.main-menu ul.navbar-nav li a {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 13px 10px !important;
+}
+.main-menu ul.navbar-nav li a {
+    line-height: 4px;
 }

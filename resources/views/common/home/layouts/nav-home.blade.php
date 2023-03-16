@@ -179,7 +179,7 @@
                                         </div>
 
                                         <div class="modal fade popuphome" id="chat-request-{{$lawyer->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog"  style="width:30%;">
+                                            <div class="modal-dialog">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="puopclass">
@@ -651,22 +651,6 @@
               <li class="nav-item">
                 <a class="nav-link" href="practice-area.html">Practice Area</a>
               </li>
-              @if(auth()->user())
-                @if(auth()->user()->user_type == 2)
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('lawyer.dashboard')}}">Dashboard</a>
-                    </li>
-                @elseif(auth()->user()->user_type == 3)
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('user.dashboard')}}">Dashboard</a>
-                    </li>
-                @else 
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{route('admin.dashboard')}}">Dashboard</a>
-                    </li>
-                @endif 
-            @endif
-
               @if(auth()->user())                      
                         @if(auth()->user()->user_type == 2)
                             <li class="nav-item">

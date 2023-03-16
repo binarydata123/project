@@ -178,7 +178,7 @@
                                         </div>
 
                                         <div class="modal fade popuphome" id="chat-request-{{$lawyer->id}}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-sm">
+                                            <div class="modal-dialog">
                                                 <div class="modal-content">
                                                     <div class="modal-body">
                                                         <div class="puopclass">

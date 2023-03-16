@@ -1,82 +1,73 @@
 @extends('lawyer.home.layouts.app')
 @section('content')
-
-    <div class="working-box">
-                <section class="lawyers-part-2 p-0">
-                    <div class="" id="border-full">
-                        <div class="row align-items-center" id="service-pages">
-                            <div class="col-md-6 col-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <ul class="d-flex1">
-                                    <li>
-                                        <h4>Chat Requests</h4>
-                                    </li>
-                                </ul>
+    <section #dashboard >
+        <div id="dashboard" class="px-3 py-5 dashboard font-Poppins-regular">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card card-list">
+                        <div class="row" style="display: flex;">
+                            <div class="col-12" id="feed">
+                                <span class="list-header">Chat Online Requests</span>                                                
                             </div>
-                        </div>                        
-                        <div class="table-responsive table-wdes">
-                            <table class="table mt-5 ">
-                                <thead class="thead-th">
-                                    <tr style="border-bottom: 2px solid #C2DDE4;">
+                        </div>
+                        <div class="card-body">
+                            <table id="myTable" class="row-border">
+                                <thead>
+                                    <tr style="color:#156075;">
                                         <th style="text-align: center;">Name</th>
                                         <th style="text-align: center;">Email</th>
                                         <th style="text-align: center;">Comments</th>
                                         <th style="text-align: center;">Accepted</th>
                                         <th style="text-align: center;">Completed</th>
-                                    </tr>
+                                        <th style="text-align: center;"></th>
                                     </tr>
                                 </thead>
-                                <tbody class="table-group-divider">
-                                @foreach($chatRequests as $k => $request)
-                                <tr style="text-align: center;">
-                                    <td style="text-align: center;">{{$request->user->name}}</td>
-                                    <td style="text-align: center;">{{$request->user->email}}</td>
-                                    <td style="text-align: center;">{{$request->comment}}</td>
-                                    <td style="text-align: center;">
-                                        @if(!$request->status)
-                                            <div class="form-check form-switch mb-2"  style="padding-left: 7.5em;">
-                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" request_id="{{$request->id}}" {{$request->status ? 'checked' : ''}} onchange="acceptRequest(this)">
-                                            </div>
-                                        @else 
-                                            Yes
-                                        @endif
-                                    </td>
-                                    <td style="text-align: center;">
-                                        @if(!$request->complete)
-                                            <div class="form-check form-switch mb-2"  style="padding-left: 7.5em;">
-                                                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" complete_id="{{$request->id}}" {{$request->complete ? 'checked' : ''}} onchange="completed(this)">
-                                            </div>
-                                        @else 
-                                            Yes
-                                        @endif
-                                    </td>
-                                    <td style="text-align: center;">
-                                        @if($request->status)
-                                            @if($request->complete)
-                                                <a href="/online-chat/{{$request->user_id}}" target="_blank" style="color:#208c84;">Chat History</a>
-                                            @else 
-                                                <a href="/online-chat/{{$request->user_id}}" target="_blank" style="color:#208c84;">Chat Here</a>                                
-                                            @endif
-                                        @else 
-                                            -
-                                        @endif
-                                    </td>
-                                </tr>
-                            @endforeach                         
+                                <tbody class="table-border-bottom-0">
+                                    @foreach($onlineRequests as $k => $request)
+                                        <tr style="text-align: center;">
+                                            <td>{{$request->user->name}}</td>
+                                            <td>{{$request->user->email}}</td>
+                                            <td>{{$request->comment}}</td>
+                                            <td>
+                                                @if(!$request->status)
+                                                    <div class="form-check form-switch mb-2"  style="padding-left: 7.5em;">
+                                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" request_id="{{$request->id}}" {{$request->status ? 'checked' : ''}} onchange="acceptRequest(this)">
+                                                    </div>
+                                                @else 
+                                                    Yes
+                                                @endif
+                                            </td>
+                                            <td>
+                                                @if(!$request->complete)
+                                                    <div class="form-check form-switch mb-2"  style="padding-left: 7.5em;">
+                                                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" complete_id="{{$request->id}}" {{$request->complete ? 'checked' : ''}} onchange="completed(this)">
+                                                    </div>
+                                                @else 
+                                                    Yes
+                                                @endif
+                                            </td>
+                                            <td>
+                                                @if($request->status)
+                                                    @if($request->complete)
+                                                        <a href="/online-chat/{{$request->user_id}}" target="_blank">Chat History</a>
+                                                    @else 
+                                                        {{--<a href="/online-chat/{{$request->user_id}}" target="_blank">Chat Here</a> --}}                               
+                                                        <a href="{{route('lawyer.chat-with-user', $request->user_id)}}" target="_blank">Chat Here</a>                                
+                                                    @endif
+                                                @else 
+                                                    -
+                                                @endif
+                                            </td>
+                                        </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
-
-                        </div>
-                        <div class="  was-validated" id="pagination-class">
-                            {{$chatRequests->links()}}
                         </div>
                     </div>
-                </section>
-
-
-                
-
-
+                </div>
+            </div>
         </div>
+    </section>
 @endsection
 @push('script')
     <script>

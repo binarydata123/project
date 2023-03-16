@@ -12,16 +12,16 @@
             </a>
             <div id='submenu1' class="collapse sidebar-submenu">
                 <ul class="menu-left">
-                    <li><a href="/" class="active-nav"><i class="fa-solid fa-house-user"></i> Home</a></li>
-                    <!-- <li><a href="#"><i class="fa-solid fa-landmark"></i>Dashboard</a></li> -->
-                    <!-- <li><a href="#"><i class="fa-solid fa-users"></i>My Activity</a></li> -->
-                    <!-- <li><a href="#"><i class="fa-solid fa-question"></i> Schedule Events</a></li> -->
-                    <li><a href="{{route('online-chat.requests')}}"><i class="fa-solid fa-star"></i> Chat Online Requests</a></li>
-                    <li><a href="#"><i class="fa-solid fa-scale-balanced"></i>Legal Services</a></li>
-                    <!-- <li><a href="#"><i class="fa-solid fa-user"></i> Lawyer Community</a></li> -->
-                    <li><a href="#"><i class="fa-solid fa-question"></i>Question & Answer</a></li>
-                    <!-- <li><a href="#"><i class="fa-solid fa-book"></i>Lawyer Articles</a></li> -->
-                    <!-- <li><a href="#"><i class="fa-solid fa-address-card"></i>Q & A</a></li> -->
+                    <li><a href="" class="active-nav"><i class="fa-solid fa-house-user"></i> Home</a></li>
+                    <li><a href="#"><i class="fa-solid fa-landmark"></i>Dashboard</a></li>
+                    <li><a href="#"><i class="fa-solid fa-users"></i>My Activity</a></li>
+                    <li><a href="#"><i class="fa-solid fa-question"></i> Schedule Events</a></li>
+                    <li><a href="#"><i class="fa-solid fa-star"></i> Chat Online Requests</a></li>
+                    <li><a href="#"><i class="fa-solid fa-bag-shopping"></i>Services</a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i> Lawyer Community</a></li>
+                    <li><a href="#"><i class="fa-solid fa-scale-balanced"></i>Question & Answer</a></li>
+                    <li><a href="#"><i class="fa-solid fa-book"></i>Lawyer Articles</a></li>
+                    <li><a href="#"><i class="fa-solid fa-address-card"></i>Q & A</a></li>
                 </ul>
             </div>
 

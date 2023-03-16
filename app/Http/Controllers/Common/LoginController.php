@@ -8,7 +8,6 @@ use App\Http\Controllers\Controller;
 use App\Traits\SendMailTrait;
 use App\Models\Lawyer;
 use App\Models\PasswordReset;
-use App\Models\ArbitrationArea;
 use App\Models\User;
 use App\Providers\RouteServiceProvider;
 use Illuminate\Support\Facades\Cache;
@@ -104,23 +103,21 @@ class LoginController extends Controller
 
     public function register() {     
         // return view('lawyer.register');
-        $areas = ArbitrationArea::pluck('area', 'id');
-        return view('lawyer.pages.register', compact('areas'));
+        return view('lawyer.pages.register');
     }
 
     public function registerLawyer(Request $request) {
+        // print_r($request->all());exit;
         $request->validate([
             'name'              =>          ['required', 'string', 'max:255'],
             'email'             =>          ['required', 'string', 'email', 'max:255', 'unique:users'],
             'password'          =>          ['required', Rules\Password::defaults()],
-            'contact_number'    =>          ['required'],
+            'contact_number'    =>          ['required', 'numeric'],
             'position'          =>          ['required', 'string', 'max:255'],
-            'linkedin'          =>          ['required'],
-            'moj_reg_no'        =>          ['required'],
-            'area'              =>          ['required'],
+            'linkedin'          =>          ['required', 'string', 'max:255'],
+            'moj_reg_no'        =>          ['required', 'string', 'max:255'],
         ]);
-        
-        // print_r($request->all());exit;
+            
         $user = User::create([
             'prefix' => $request->pref,
             'name' => $request->name,
@@ -139,13 +136,13 @@ class LoginController extends Controller
             'moj_reg_no' => $request->moj_reg_no,
             'position' => $request->position,
             'linkedin_profile' => $request->linkedin,
-            'arbitration_area_id' => $request->area,
         ]);
 
         event(new Registered($user));
-        $html = View::make('emails.lawyer-registered', ['name' => $request->name])->render();
-        $response = $this->sendEmail($request->email, 'Welcome to Connect Legal - Best tailor made  legal consultant platform in Middle East', $html);
+
         // Auth::login($user);
+
+        $response = $this->sendEmail($request->email, 'Registration Successful');
         
         // $response->success() && var_dump($response->getData());
         Alert::success('Success', 'Your registration was successful. Please check your email');

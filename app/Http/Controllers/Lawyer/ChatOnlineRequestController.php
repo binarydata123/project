@@ -25,9 +25,9 @@ class ChatOnlineRequestController extends Controller
             $ids[] = $request->id;
         }
         
-        $chatRequests = ChatOnline::whereIn('id', $ids)->paginate(10);
+        $onlineRequests = ChatOnline::whereIn('id', $ids)->get();
         // return view('lawyer.chat-online', compact('onlineRequests'));
-        return view('lawyer.pages.chat-online-requests', compact('chatRequests'));
+        return view('lawyer.pages.chat-online-requests', compact('onlineRequests'));
     }
 
     public function acceptRequest(Request $request, $id) {

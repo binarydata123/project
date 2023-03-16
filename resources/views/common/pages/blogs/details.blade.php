@@ -1,7 +1,7 @@
 @extends('common.home.layouts.app')
 @section('content')
-<main class="bg-color" id="bg-back">
-        <div class="container py-5">
+    <main class="bg-color p-80" id="bg-back">
+        <div class="container py-3">
             <div class="row" id="blog-catagary">
                 <div class="col-md-6 col-6">
                     <h4><a href="{{route('blogs-articles', 1)}}" style="color:#156075">/ BLOG /</a> CATEGORY</h4>

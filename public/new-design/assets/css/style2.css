@@ -123,7 +123,7 @@ label.form-label {
 
 .hvr-btn {
     width: 177px;
-    height: 68px;
+    height: 50px;
     background: #208C84;
     border: none;
     border-radius: 0;
@@ -146,7 +146,6 @@ label.form-label {
 }
 
 .f-txt {
-    padding-top: 50px;
     font-size: 48px;
     font-weight: 600;
 }
@@ -403,7 +402,6 @@ p.txt-lorm {
 }
 
 h1.lyr-txxt {
-    padding-top: 100px;
     font-size: 35px;
     font-weight: 700;
 }
@@ -1308,7 +1306,7 @@ div#hire_page .search-drop {
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 20px 60px;
+    padding: 20px 40px;
     text-decoration: none;
 }
 
@@ -1430,7 +1428,7 @@ img.img-responsive.img-2 {
 }
 
 .question-text1 p {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0em;
@@ -1626,7 +1624,7 @@ li {
 }
 
 .buy-service h5 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 0em;
@@ -1678,11 +1676,6 @@ li {
     .buy-new {
         font-size: 14px;
         padding: 15px 20px;
-    }
-
-    a.next-step-btn {
-        font-size: 16px;
-        padding: 9px 10px;
     }
 }
 
@@ -1769,14 +1762,14 @@ li {
 }
 
 .addpay {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     width: 100%;
     line-height: 35px;
     letter-spacing: 0em;
     text-align: center;
     background: #208C84;
-    padding: 20px;
+    padding: 6px;
     color: #fff;
     display: block;
     text-decoration: none;
@@ -1794,7 +1787,7 @@ div#pdng-cover {
 #id-center {
     background: #E8F8F2;
     border-radius: 15px;
-    padding: 100px 0px;
+    padding: 30px 0px;
 }
 
 #id-center img {
@@ -1890,7 +1883,7 @@ ul.li-list li {
     text-align: center;
     border: 1px solid #208C84;
     color: #208C84;
-    padding: 15px 20px;
+    padding: 6px 15px;
 }
 
 .Generatebtn:hover {
@@ -2412,6 +2405,7 @@ p.en {
     }
     .card-summary h5 {
         padding-top: 10px;
+        font-size: 16px !important;
     }
     .client-part p {
         font-size: 16px;
@@ -2420,6 +2414,9 @@ p.en {
     .text-slid h2 {
         font-size: 40px;
         line-height: 72px;
+    }
+    a.next-step-btn {
+        font-size: 16px  !important;
     }
 }
 
@@ -2798,9 +2795,6 @@ p.plt {
     img.b-bnr {
         width: 100%;
     }
-    .see-more.seechnage {
-        padding: 20px 0px 20px 20px;
-    }
     .see-more.seechnage i {
         background: #3DC9A1;
         padding: 24px;
@@ -2908,13 +2902,12 @@ button.btn-lgn {
     background: #208C84;
     border: 0;
     color: white;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 35px;
-    padding: 5px 50px;
+    padding: 5px 10px;
     height: 45px;
-    width: 210px;
-    margin-left: 85px;
+    width: 140px;
 }
 
 img.grp {
@@ -3361,7 +3354,7 @@ p.l-a {
     background: #85BACA;
     border-radius: 10px;
     border: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
@@ -3416,7 +3409,7 @@ p.ph {
         padding: 10px;
     }
     .law-box h5 {
-        font-size: 16px;
+        font-size: 14px;
     }
     .card-ali.mm {
         left: -72px;
@@ -3433,13 +3426,12 @@ p.ph {
     }
 
     img.rggggg {
-        position: absolute;
+        position: unset;
         top: 0;
     }
 
     img.fv {
         width: 70px;
-        padding-top: 210px;
         padding-bottom: 22px;
     }
 
@@ -3502,7 +3494,7 @@ div#hire_page .search-drop {
     line-height: 35px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 20px 60px;
+    padding: 10px 10px;
     text-decoration: none;
 }
 
@@ -5182,7 +5174,7 @@ button.btn.btn-secondary.bg-btn-1 {
 /* new css */
 
 button.btn-rgstrr {
-    position: unset;
+    position: absolute;
     bottom: 0;
 }
 div#accodian-class {
@@ -5192,6 +5184,10 @@ div#accodian-class {
 @media(max-width:767px) {
 .form-horizontal-class { 
     padding: 20px; 
+}
+button.btn-rgstrr {
+    position: unset;
+    bottom: 0;
 }
 div#accodian-class {
     padding: 20px 10px 20px 0px;
@@ -5220,6 +5216,30 @@ img.off-logo {
 }
 }
 
+/*  */
+
+.bk {
+    background: #EDEEC6;
+    border-radius: 10px;
+    padding: 35px;
+}
 
 
 
+/* 12-03-2023 */
+.user-online-g img.legal-1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+@media (min-width:1366px) {
+    .see-more.seechnage i {
+        background: #3DC9A1;
+        padding: 12px;
+    }
+    .see-more.seechnage {
+        font-size: 18px;
+    }
+}

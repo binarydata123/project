@@ -10,18 +10,9 @@
                     <div class="footer-list">
                         <h5>About Company</h5>
                         <ul>
-                            <li>
-                                <a href="">About Company</a>
-                            </li>
-                            <li>
-                                <a href="">Our services</a>
-                            </li>
-                            <li>
-                                <a href="">Job opportunities</a>
-                            </li>
-                            <li>
-                                <a href="">Contact us</a>
-                            </li>
+                            <li><a href="{{url('/how-it-works')}}">How it work for individual</a></li>
+                            <li><a href="{{url('/lawyer/register')}}">How it works for Lawyers</a></li>
+                            <li><a href="{{url('/our-lawyers')}}">Our Lawyers</a></li>
                         </ul>
                     </div>
                 </div>
@@ -29,18 +20,10 @@
                     <div class="footer-list">
                         <h5> Customer desk</h5>
                         <ul>
-                            <li>
-                                <a href="">Client support</a>
-                            </li>
-                            <li>
-                                <a href="">Pricing packages</a>
-                            </li>
-                            <li>
-                                <a href="">Company story</a>
-                            </li>
-                            <li>
-                                <a href="">Latest news</a>
-                            </li>
+                            <li><a href="{{url('/legal-services')}}">Legal Services</a></li>
+                            <li><a href="#">PRO services</a></li>
+                            <li><a href="#">Legal Translation services</a></li>
+                            <li><a href="#">PRO Bono Services</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,18 +31,10 @@
                     <div class="footer-list">
                         <h5> Clients resources</h5>
                         <ul>
-                            <li>
-                                <a href="">Theme guide</a>
-                            </li>
-                            <li>
-                                <a href="">Support desk</a>
-                            </li>
-                            <li>
-                                <a href="">What we offer</a>
-                            </li>
-                            <li>
-                                <a href="">Company history</a>
-                            </li>
+                            <li><a href="{{url('/testimonials')}}">Testiminials</a></li>
+                            <li><a href="{{url('/question-answers')}}">Q & A</a></li>
+                            <li><a href="{{url('/blogs-articles/1')}}">Blogs and articles</a></li>
+                            <li><a href="{{url('/blogs-articles/practice-area.html')}}">Practice Area pages</a></li>
                         </ul>
                     </div>
                 </div>
@@ -67,18 +42,9 @@
                     <div class="footer-list">
                         <h5> Our services</h5>
                         <ul>
-                            <li>
-                                <a href="">Brand experience</a>
-                            </li>
-                            <li>
-                                <a href="">E-commerce website</a>
-                            </li>
-                            <li>
-                                <a href="">Content writing</a>
-                            </li>
-                            <li>
-                                <a href="">Marketing strategy</a>
-                            </li>
+                            <li><a href="{{url('/login')}}">Login</a></li>
+                            <li><a href="{{url('/register-as')}}">Sign up</a></li>
+                            <li><a href="#">Contact US</a></li>
                         </ul>
                     </div>
                 </div>
@@ -89,7 +55,7 @@
                         <img src="/new-design/assets/image/home/copyright-logo.png" alt="">
                     </div>
                     <div class="col-12 col-sm-12 col-md-4 order-fsm3">
-                        <p>© 2021 Litho is Proudly Powered by ThemeZaa</p>
+                        <p>© {{date('Y')}} Litho is Proudly Powered by ThemeZaa</p>
                     </div>
                     <div class="col-6 col-sm-6 col-md-4 order-fsm2">
                         <div class="social-link">

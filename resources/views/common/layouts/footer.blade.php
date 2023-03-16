@@ -7,10 +7,9 @@
                 <div class="col-12 col-md-3 col-sm-6 sm-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-medium-slate-blue margin-15px-bottom xs-margin-10px-bottom">About company</span>
                     <ul>
-                        <li><a href="about-us.html">About company</a></li>
-                        <li><a href="our-services.html">Our services</a></li>
-                        <li><a href="our-team.html">Job opportunities</a></li>
-                        <li><a href="contact-us-classic.html">Contact us</a></li>
+                        <li><a href="{{url('/how-it-works')}}">How it work for individual</a></li>
+                        <li><a href="{{url('/lawyer/register')}}">How it works for Lawyers</a></li>
+                        <li><a href="{{url('/our-lawyers')}}">Our Lawyers</a></li>
                     </ul>
                 </div>
                 <!-- end footer column -->
@@ -18,10 +17,10 @@
                 <div class="col-12 col-md-3 col-sm-6 sm-margin-40px-bottom xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-medium-slate-blue margin-15px-bottom xs-margin-10px-bottom">Customer desk</span>
                     <ul>                           
-                        <li><a href="faq.html">Client support</a></li>
-                        <li><a href="pricing-packages.html">Pricing packages</a></li>
-                        <li><a href="our-story.html">Company story</a></li>
-                        <li><a href="latest-news.html">Latest news</a></li>
+                        <li><a href="{{url('/legal-services')}}">Legal Services</a></li>
+                        <li><a href="#">PRO services</a></li>
+                        <li><a href="#">Legal Translation services</a></li>
+                        <li><a href="#">PRO Bono Services</a></li>
                     </ul>
                 </div>
                 <!-- end footer column -->
@@ -29,10 +28,10 @@
                 <div class="col-12 col-md-3 col-sm-6 xs-margin-25px-bottom">
                     <span class="alt-font font-weight-500 d-block text-medium-slate-blue margin-15px-bottom xs-margin-10px-bottom">Clients resources</span>
                     <ul>                           
-                        <li><a href="faq.html">Theme guide</a></li>
-                        <li><a href="faq.html">Support desk</a></li>
-                        <li><a href="what-we-offers.html">What we offer</a></li>
-                        <li><a href="our-story.html">Company history</a></li>
+                        <li><a href="{{url('/testimonials')}}">Testiminials</a></li>
+                        <li><a href="{{url('/question-answers')}}">Q & A</a></li>
+                        <li><a href="{{url('/blogs-articles/1')}}">Blogs and articles</a></li>
+                        <li><a href="{{url('/blogs-articles/practice-area.html')}}">Practice Area pages</a></li>
                     </ul>
                 </div>
                 <!-- end footer column -->
@@ -40,10 +39,9 @@
                 <div class="col-12 col-md-3 col-sm-6">
                     <span class="alt-font font-weight-500 d-block text-medium-slate-blue margin-15px-bottom xs-margin-10px-bottom">Our services</span>
                     <ul>
-                        <li><a href="our-services.html">Brand experience</a></li>
-                        <li><a href="our-services.html">E-commerce website</a></li>
-                        <li><a href="our-services.html">Content writing</a></li>
-                        <li><a href="our-services.html">Marketing strategy</a></li>
+                        <li><a href="{{url('/login')}}">Login</a></li>
+                        <li><a href="{{url('/register-as')}}">Sign up</a></li>
+                        <li><a href="#">Contact US</a></li>
                     </ul>
                 </div>
                 <!-- end footer column -->
@@ -57,7 +55,7 @@
                     <a href="index.html" class="footer-logo"><img src="/logo.png" data-at2x="/logo.png" alt=""></a>
                 </div>
                 <div class="col-12 col-md-6 text-center last-paragraph-no-margin sm-margin-20px-bottom">
-                    <p>&copy; 2021 Litho is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-medium-slate-blue text-decoration-line-bottom font-weight-500">ThemeZaa</a></p>
+                    <p>&copy; {{date('Y')}} Litho is Proudly Powered by <a href="https://www.themezaa.com/" target="_blank" class="text-medium-slate-blue text-decoration-line-bottom font-weight-500">ThemeZaa</a></p>
                 </div>
                 <div class="col-12 col-md-3 text-center text-md-end">
                     <div class="social-icon-style-12">

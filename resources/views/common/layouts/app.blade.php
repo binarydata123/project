@@ -136,8 +136,11 @@
         </style>
     </head>
     <body data-mobile-nav-style="classic" style="background-color:#0c294c;padding-top:73.977px!important;">
+
         @include('common.layouts.header')
-        @yield('content')
+        <div class="p-80">
+            @yield('content')
+        </div>
         
         @include('common.layouts.footer')
         <!-- start scroll to top -->
